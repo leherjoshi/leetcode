@@ -22,4 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## Array
+|  |
+| ------- |
+| [0393-utf-8-validation](https://github.com/leherjoshi/leetcode/tree/master/0393-utf-8-validation) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0393-utf-8-validation](https://github.com/leherjoshi/leetcode/tree/master/0393-utf-8-validation) |
 <!---LeetCode Topics End-->
