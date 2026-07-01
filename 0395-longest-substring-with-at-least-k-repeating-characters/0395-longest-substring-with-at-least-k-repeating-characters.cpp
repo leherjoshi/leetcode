@@ -1,32 +1,27 @@
 class Solution {
 public:
 
+    int divide(string s,int start,int end,int k){
+        if(start>end)return 0;
+         int countMap[26] = {0};
+      
+        for (int i = start; i < end; i++)
+            countMap[s[i] - 'a']++;
+
+        for(int i=start;i<end;i++){
+            if(countMap[s[i]-'a']<k){
+            int left=divide(s,start,i,k);
+
+            int right=divide(s,i+1,end,k);
+            return max(left,right);
+            }
+        }
+        return end-start;
+    }
     int longestSubstring(string s, int k) {
        // unordered_map<char,int>mp;
-        int mx=0;
         int n=s.size();
-        for(int i=0;i<n;i++){
-            vector<int>mp(26,0);
-            for(int j=i;j<n;j++)
-            {
-               mp[s[j]-'a']++;
-               bool tr=true;
-
-        for(int c=0;c<26;c++){
-              if(mp[c]!=0 && mp[c]<k){
-                 tr=false;
-               break;
-                  }
-                }
-
-            if(tr)
-              mx=max(mx,j-i+1);
-           
-                  }
-          }
-
-
-        return mx;
+        return divide(s,0,n,k);
     }
 };
 
