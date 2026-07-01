@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0226-invert-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Union-Find
 |  |
@@ -101,16 +102,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0226-invert-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
+| [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
+| [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 ## Binary Tree
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
+| [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 ## Backtracking
 |  |
 | ------- |
