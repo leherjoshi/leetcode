@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
+| [3925-concatenate-array-with-reverse](https://github.com/leherjoshi/leetcode/tree/master/3925-concatenate-array-with-reverse) |
 ## Hash Table
 |  |
 | ------- |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/leherjoshi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/leherjoshi/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
+| [3925-concatenate-array-with-reverse](https://github.com/leherjoshi/leetcode/tree/master/3925-concatenate-array-with-reverse) |
 ## Bit Manipulation
 |  |
 | ------- |
