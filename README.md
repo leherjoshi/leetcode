@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
 ## Hash Table
 |  |
 | ------- |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
 |  |
