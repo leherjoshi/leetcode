@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+| [3945-digit-frequency-score](https://github.com/leherjoshi/leetcode/tree/master/3945-digit-frequency-score) |
 ## String
 |  |
 | ------- |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/leherjoshi/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/leherjoshi/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
+| [3945-digit-frequency-score](https://github.com/leherjoshi/leetcode/tree/master/3945-digit-frequency-score) |
 ## Sliding Window
 |  |
 | ------- |
