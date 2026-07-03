@@ -1,45 +1,49 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-
-    int i = 0;
-
-    TreeNode* dfs(string &s, int depth)
+    TreeNode* func(vector<pair<int,int>> &pre,int &ind,int lvl)
     {
-            int d=i;
-
-        int cnt=0;
-       while(s[i]=='-'&&i<s.size()){
-        cnt++;
-        i++;
-       }
-
-        // 3. If depth mismatch
-        //    restore index
-        //    return NULL
-        if(depth!=cnt){
-            i=d;
-            return NULL;
-        }
-
-        // 4. Read complete number
-        int num=0;
-            while(i<s.size()&&isdigit(s[i])){
-                num=num*10+(s[i++]-'0');
-            }
-
-        // 5. Create node
-        TreeNode*root= new TreeNode(num);
-
-        // 6. node->left = dfs(...)
-            root->left=dfs(s,depth+1);
-        // 7. node->right = dfs(...)
-            root->right=dfs(s,depth+1);
-        // 8. return node
-        return root;
+        if(ind==pre.size()) return NULL;
+        if(lvl!=pre[ind].second) return NULL;
+        TreeNode *ans=new TreeNode(pre[ind].first);
+        ind++;
+        ans->left=func(pre,ind,lvl+1);
+        ans->right=func(pre,ind,lvl+1);
+        return ans;
     }
-
-    TreeNode* recoverFromPreorder(string traversal)
-    {
-        return dfs(traversal,0);
+    TreeNode* recoverFromPreorder(string s) {
+        vector<pair<int,int>> pre;
+        int i=0;
+        int depth=0;
+        int num=0;
+        while(i<s.size())
+        {
+            depth=0;
+            while(s[i]=='-')
+            {
+                depth++;
+                i++;
+            }
+            num=0;
+            while(i<s.size()&&s[i]!='-')
+            {
+                num*=10;
+                num+=s[i]-'0';
+                i++;
+            }
+            pre.push_back({num,depth});
+        }
+        int ind=0;
+        return func(pre,ind,0);
     }
 };
