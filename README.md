@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
+| [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2769-find-the-maximum-achievable-number](https://github.com/leherjoshi/leetcode/tree/master/2769-find-the-maximum-achievable-number) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/leherjoshi/leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 | [0118-pascals-triangle](https://github.com/leherjoshi/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leherjoshi/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
@@ -236,4 +238,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/leherjoshi/leetcode/tree/master/0169-majority-element) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
