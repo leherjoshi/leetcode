@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0088-merge-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/leherjoshi/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
+| [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 ## Dynamic Programming
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
