@@ -4,12 +4,12 @@ public:
         int n = grid.size();
         int m = grid[0].size();
         vector<vector<int>> dist(n, vector<int>(m, INT_MAX));
-        queue<pair<int, int>> pq;
+        priority_queue<pair<int, int>> pq;
         pq.push({0, 0});
         dist[0][0] = grid[0][0];
 
         while (!pq.empty()) {
-            auto [x, y] = pq.front();
+            auto [x, y] = pq.top();
             pq.pop();
 
             int dx[] = {1, -1, 0, 0};
