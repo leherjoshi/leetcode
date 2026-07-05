@@ -1,45 +1,36 @@
 class Solution {
-    static constexpr int DIRS[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-
 public:
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
-        int m = grid.size(), n = grid[0].size();
-        vector<vector<int>> dis(m, vector<int>(n, INT_MAX));
+        int n = grid.size();
+        int m = grid[0].size();
+        vector<vector<int>> dist(n, vector<int>(m, INT_MAX));
+        queue<pair<int, int>> pq;
+        pq.push({0, 0});
+        dist[0][0] = grid[0][0];
 
-        deque<pair<int, int>> q;
-        q.emplace_front(0, 0);
-        dis[0][0] = grid[0][0];
+        while (!pq.empty()) {
+            auto [x, y] = pq.front();
+            pq.pop();
 
-        while (!q.empty()) {
-            auto [cx, cy] = q.front();
-            q.pop_front();
-            // the first time it leaves the queue, the shortest distance is
-            // guaranteed
-            if (cx == m - 1 && cy == n - 1) {
-                return true;
-            }
+            int dx[] = {1, -1, 0, 0};
+            int dy[] = {0, 0, -1, 1};
 
-            for (auto& [dx, dy] : DIRS) {
-                int nx = cx + dx, ny = cy + dy;
-                if (nx < 0 || ny < 0 || nx >= m || ny >= n) {
+           
+
+            for (int i = 0; i < 4; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+
+                if (nx < 0 || ny < 0 || nx >= n || ny >= m)
                     continue;
-                }
-                int cost = dis[cx][cy] + grid[nx][ny];
-                // pruning: the new distance does not meet health requirements
-                if (cost >= health) {
-                    continue;
-                }
-                if (cost < dis[nx][ny]) {
-                    dis[nx][ny] = cost;
-                    if (grid[nx][ny] == 0) {
-                        q.emplace_front(nx, ny);
-                    } else {
-                        q.emplace_back(nx, ny);
-                    }
+                 int w = grid[nx][ny];
+
+                if (dist[nx][ny] > dist[x][y] + w) {
+                    dist[nx][ny] = w + dist[x][y];
+                    pq.push({nx, ny});
                 }
             }
         }
-
-        return false;
+        return dist[n - 1][m - 1]<health;
     }
 };
