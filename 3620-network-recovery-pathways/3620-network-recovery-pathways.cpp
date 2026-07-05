@@ -1,80 +1,93 @@
 class Solution {
 public:
-    int findMaxPathScore(vector<vector<int>>& edges, vector<bool>& online,
-                         long long k) {
-        int n = online.size();
-        vector<vector<pair<int, int>>> g(n);
-        vector<int> deg(n, 0);
-        int l = INT_MAX, r = 0;
+    int n;
 
-        for (auto& edge : edges) {
-            int u = edge[0];
-            int v = edge[1];
-            int w = edge[2];
-            if (!online[u] || !online[v]) {
+    bool find(int limit,
+              unordered_map<int, vector<pair<int,int>>> &adj,
+              vector<bool> &online,
+              long long k)
+    {
+        priority_queue<
+            pair<long long,int>,
+            vector<pair<long long,int>>,
+            greater<pair<long long,int>>
+        > pq;
+
+        vector<long long> dist(n, LLONG_MAX);
+
+        dist[0] = 0;
+        pq.push({0,0});
+
+        while(!pq.empty())
+        {
+            auto [currcost,node] = pq.top();
+            pq.pop();
+
+            if(currcost > dist[node])
                 continue;
-            }
-            g[u].push_back({v, w});
-            deg[v]++;
-            l = min(l, w);
-            r = max(r, w);
-        }
 
-        queue<int> q;
-        for (int i = 1; i < n; i++) {
-            if (!deg[i]) {
-                q.push(i);
-            }
-        }
+            for(auto &nxt : adj[node])
+            {
+                auto [v,cost] = nxt;
 
-        while (!q.empty()) {
-            int u = q.front();
-            q.pop();
-            for (auto& [v, _] : g[u]) {
-                deg[v]--;
-                if (v && deg[v] == 0) {
-                    q.push(v);
+                if(v != n-1 && !online[v])
+                    continue;
+
+                // Use limit here according to the problem.
+                // Example:
+                if(cost < limit) continue;
+
+                long long nwcost = currcost + cost;
+
+                if(nwcost < dist[v])
+                {
+                    dist[v] = nwcost;
+                    pq.push({nwcost,v});
                 }
             }
         }
 
-        auto check = [&](int mid) -> bool {
-            vector<long long> dp(n, LLONG_MAX / 2);
-            vector<int> cdeg = deg;
-            dp[0] = 0;
-            queue<int> q;
-            q.push(0);
-            while (!q.empty()) {
-                int u = q.front();
-                q.pop();
-                if (u == n - 1) {
-                    return dp[u] <= k;
-                }
-                for (auto& [v, w] : g[u]) {
-                    if (w >= mid) {
-                        dp[v] = min(dp[v], dp[u] + w);
-                    }
-                    cdeg[v]--;
-                    if (!cdeg[v]) {
-                        q.push(v);
-                    }
-                }
-            }
-            return false;
-        };
+        return dist[n-1] <= k;
+    }
 
-        if (!check(l)) {
-            return -1;
+    int findMaxPathScore(vector<vector<int>>& edges,
+                         vector<bool>& online,
+                         long long k)
+    {
+        n = online.size();
+
+        unordered_map<int, vector<pair<int,int>>> adj;
+
+        int low = 0;
+        int high = 0;
+
+        for(auto &e : edges)
+        {
+            int u = e[0];
+            int v = e[1];
+            int c = e[2];
+
+            adj[u].push_back({v,c});
+            high = max(high, c);
         }
 
-        while (l <= r) {
-            int mid = (l + r) >> 1;
-            if (check(mid)) {
-                l = mid + 1;
-            } else {
-                r = mid - 1;
+        int ans = -1;
+
+        while(low <= high)
+        {
+            int mid = low + (high-low)/2;
+
+            if(find(mid, adj, online, k))
+            {
+                ans = mid;
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid - 1;
             }
         }
-        return r;
+
+        return ans;
     }
 };
