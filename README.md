@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0138-copy-list-with-random-pointer](https://github.com/leherjoshi/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0169-majority-element](https://github.com/leherjoshi/leetcode/tree/master/0169-majority-element) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/leherjoshi/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/leherjoshi/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0025-reverse-nodes-in-k-group](https://github.com/leherjoshi/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0138-copy-list-with-random-pointer](https://github.com/leherjoshi/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0237-delete-node-in-a-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
