@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
+| [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2769-find-the-maximum-achievable-number](https://github.com/leherjoshi/leetcode/tree/master/2769-find-the-maximum-achievable-number) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/leherjoshi/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0394-decode-string](https://github.com/leherjoshi/leetcode/tree/master/0394-decode-string) |
 ## Divide and Conquer
 |  |
