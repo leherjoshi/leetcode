@@ -22,7 +22,7 @@ public:
                 low=min(low,prev[n]);
             }
             prev[0]=min(prev[0],prefix);
-            low=min(low,prev[0]);
+      //      low=min(low,prev[0]);
         }
         return res;
     }
