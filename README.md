@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/leherjoshi/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0169-majority-element](https://github.com/leherjoshi/leetcode/tree/master/0169-majority-element) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/leherjoshi/leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/leherjoshi/leetcode/tree/master/0031-next-permutation) |
+| [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/leherjoshi/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/leherjoshi/leetcode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/leherjoshi/leetcode/tree/master/0042-trapping-rain-water) |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/leherjoshi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
@@ -252,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/leherjoshi/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/leherjoshi/leetcode/tree/master/0040-combination-sum-ii) |
 | [0047-permutations-ii](https://github.com/leherjoshi/leetcode/tree/master/0047-permutations-ii) |
