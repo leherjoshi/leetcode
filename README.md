@@ -367,4 +367,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/leherjoshi/leetcode/tree/master/0042-trapping-rain-water) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/leherjoshi/leetcode/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
