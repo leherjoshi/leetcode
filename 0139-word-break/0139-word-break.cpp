@@ -13,7 +13,7 @@ public:
             
             if(yes(s.substr(i,j-i+1),word)){
                 if(solve(j+1,s,word,dp)){
-                return dp[j+1]=true;
+                return dp[i]=true;
             }
              }
         }
