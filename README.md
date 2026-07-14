@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2769-find-the-maximum-achievable-number](https://github.com/leherjoshi/leetcode/tree/master/2769-find-the-maximum-achievable-number) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/leherjoshi/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/leherjoshi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3945-digit-frequency-score](https://github.com/leherjoshi/leetcode/tree/master/3945-digit-frequency-score) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/leherjoshi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/leherjoshi/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
@@ -309,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 ## Greedy
 |  |
 | ------- |
