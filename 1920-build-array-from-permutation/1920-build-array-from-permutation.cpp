@@ -1,12 +1,12 @@
 class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
-
-        vector<int> ans(nums.size());
-
-        for(int i=0;i<ans.size();i++){
-            ans[i]=nums[nums[i]];
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            nums[i]+=1000*(nums[nums[i]]%1000);
         }
-        return ans;
-    }
-};
+for (int i = 0; i < n; ++i) {
+            nums[i] /= 1000;
+        }
+        return nums;
+    }};
