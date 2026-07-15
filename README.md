@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2769-find-the-maximum-achievable-number](https://github.com/leherjoshi/leetcode/tree/master/2769-find-the-maximum-achievable-number) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+| [2894-divisible-and-non-divisible-sums-difference](https://github.com/leherjoshi/leetcode/tree/master/2894-divisible-and-non-divisible-sums-difference) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/leherjoshi/leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/leherjoshi/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
