@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/leherjoshi/leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
+| [2011-final-value-of-variable-after-performing-operations](https://github.com/leherjoshi/leetcode/tree/master/2011-final-value-of-variable-after-performing-operations) |
 | [2942-find-words-containing-character](https://github.com/leherjoshi/leetcode/tree/master/2942-find-words-containing-character) |
 | [3110-score-of-a-string](https://github.com/leherjoshi/leetcode/tree/master/3110-score-of-a-string) |
 | [3598-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/leherjoshi/leetcode/tree/master/3598-longest-common-prefix-between-adjacent-strings-after-removals) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [1441-build-an-array-with-stack-operations](https://github.com/leherjoshi/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1920-build-array-from-permutation](https://github.com/leherjoshi/leetcode/tree/master/1920-build-array-from-permutation) |
+| [2011-final-value-of-variable-after-performing-operations](https://github.com/leherjoshi/leetcode/tree/master/2011-final-value-of-variable-after-performing-operations) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
 | [3925-concatenate-array-with-reverse](https://github.com/leherjoshi/leetcode/tree/master/3925-concatenate-array-with-reverse) |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1920-build-array-from-permutation](https://github.com/leherjoshi/leetcode/tree/master/1920-build-array-from-permutation) |
+| [2011-final-value-of-variable-after-performing-operations](https://github.com/leherjoshi/leetcode/tree/master/2011-final-value-of-variable-after-performing-operations) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2942-find-words-containing-character](https://github.com/leherjoshi/leetcode/tree/master/2942-find-words-containing-character) |
