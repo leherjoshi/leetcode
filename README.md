@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/leherjoshi/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0394-decode-string](https://github.com/leherjoshi/leetcode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/leherjoshi/leetcode/tree/master/0496-next-greater-element-i) |
+| [0901-online-stock-span](https://github.com/leherjoshi/leetcode/tree/master/0901-online-stock-span) |
 | [1441-build-an-array-with-stack-operations](https://github.com/leherjoshi/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 ## Recursion
 |  |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/leherjoshi/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0295-find-median-from-data-stream](https://github.com/leherjoshi/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0705-design-hashset](https://github.com/leherjoshi/leetcode/tree/master/0705-design-hashset) |
+| [0901-online-stock-span](https://github.com/leherjoshi/leetcode/tree/master/0901-online-stock-span) |
 ## Hash Function
 |  |
 | ------- |
@@ -438,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/leherjoshi/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/leherjoshi/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/leherjoshi/leetcode/tree/master/0496-next-greater-element-i) |
+| [0901-online-stock-span](https://github.com/leherjoshi/leetcode/tree/master/0901-online-stock-span) |
 ## Enumeration
 |  |
 | ------- |
@@ -458,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/leherjoshi/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0901-online-stock-span](https://github.com/leherjoshi/leetcode/tree/master/0901-online-stock-span) |
 ## Quickselect
 |  |
 | ------- |
