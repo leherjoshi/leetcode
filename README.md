@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/leherjoshi/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/leherjoshi/leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/leherjoshi/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
 | [0705-design-hashset](https://github.com/leherjoshi/leetcode/tree/master/0705-design-hashset) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1331-rank-transform-of-an-array](https://github.com/leherjoshi/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
 | [0705-design-hashset](https://github.com/leherjoshi/leetcode/tree/master/0705-design-hashset) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1288-remove-covered-intervals](https://github.com/leherjoshi/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/leherjoshi/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1441-build-an-array-with-stack-operations](https://github.com/leherjoshi/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
@@ -137,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/leherjoshi/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0393-utf-8-validation](https://github.com/leherjoshi/leetcode/tree/master/0393-utf-8-validation) |
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
 ## Two Pointers
@@ -167,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -304,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/leherjoshi/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/leherjoshi/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -379,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/leherjoshi/leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/leherjoshi/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 ## Combinatorics
 |  |
 | ------- |
@@ -437,4 +444,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/leherjoshi/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bitmask
+|  |
+| ------- |
+| [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 <!---LeetCode Topics End-->
