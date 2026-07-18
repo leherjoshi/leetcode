@@ -1,25 +1,27 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        priority_queue<pair<int, int>> pq;
+        deque<int> dq; // stores indices
         vector<int> ans;
-        int maxi = *max_element(nums.begin(), nums.begin() + k);
 
-        for (int i = 0; i < k; i++)
-            pq.push({nums[i], i});
-        ans.push_back(maxi);
-        for (int i = k; i < nums.size(); i++) {
-            pq.push({nums[i], i});
-            auto cell = pq.top();
-            maxi = cell.first;
-            int j = cell.second;
-            // if (j >= i-k+1)
-            //     ans.push_back(maxi);
+        for (int i = 0; i < nums.size(); i++) {
+            // step 1: pop smaller elements from the back
+            while (!dq.empty() && nums[i] > nums[dq.back()]) {
+                dq.pop_back();
+            }
 
-          while (!pq.empty() && pq.top().second <= i-k)
-                    pq.pop();
+            // step 2: push i to the back
+            dq.push_back(i);
 
-         ans.push_back(pq.top().first);
+            // step 3: pop expired index from the front
+            if (dq.front() <= i - k) {
+                dq.pop_front();
+            }
+
+            // step 4: once a full window exists, record the max
+            if (i >= k - 1) {
+                ans.push_back(nums[dq.front()]);
+            }
         }
         return ans;
     }
