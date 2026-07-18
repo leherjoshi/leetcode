@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leherjoshi/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/leherjoshi/leetcode/tree/master/0169-majority-element) |
+| [0221-maximal-square](https://github.com/leherjoshi/leetcode/tree/master/0221-maximal-square) |
 | [0239-sliding-window-maximum](https://github.com/leherjoshi/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/leherjoshi/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leherjoshi/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/leherjoshi/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
+| [0221-maximal-square](https://github.com/leherjoshi/leetcode/tree/master/0221-maximal-square) |
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0221-maximal-square](https://github.com/leherjoshi/leetcode/tree/master/0221-maximal-square) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/leherjoshi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/leherjoshi/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
