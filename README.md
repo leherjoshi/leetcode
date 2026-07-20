@@ -539,4 +539,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/leherjoshi/leetcode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/leherjoshi/leetcode/tree/master/0460-lfu-cache) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/leherjoshi/leetcode/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
