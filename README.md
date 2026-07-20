@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/leherjoshi/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/leherjoshi/leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/leherjoshi/leetcode/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/leherjoshi/leetcode/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/leherjoshi/leetcode/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/leherjoshi/leetcode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/leherjoshi/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/leherjoshi/leetcode/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/leherjoshi/leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/leherjoshi/leetcode/tree/master/0042-trapping-rain-water) |
