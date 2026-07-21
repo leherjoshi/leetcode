@@ -1,41 +1,36 @@
 class Solution {
 public:
     string reorganizeString(string s) {
-        int n=s.size();
-        vector<int>freq(26,0);
-        for(char c:s){
-            freq[c-'a']++;
+        unordered_map<char, int> freq_map;
+        for (char c : s) {
+            freq_map[c]++;
         }
-        
-        for(int x : freq){
-            if(x > (n+1)/2) return "";
-        }
-        string ans="";
-       vector<int>a(n);
-       
-        int i=0;
 
-        vector<pair<int,int>> order; 
-for(int f = 0; f < 26; f++){
-    if(freq[f] > 0){
-        order.push_back({freq[f], f});
+        priority_queue<pair<int, char>> max_heap;
+        for (auto &[ch, freq] : freq_map) {
+            max_heap.push({freq, ch});
+        }
+         if (max_heap.top().first > (s.length() + 1) / 2) {
+        return "";
     }
-}
+        string res;
+        while (max_heap.size() >= 2) {
+            auto [freq1, char1] = max_heap.top(); max_heap.pop();
+            auto [freq2, char2] = max_heap.top(); max_heap.pop();
 
-sort(order.begin(), order.end(), greater<pair<int,int>>());
+            res += char1;
+            res += char2;
 
-// order[0] now has the highest-frequency letter first
-    for(int f=0;f<order.size();f++){
-       while(order[f].first > 0){
-                a[i]=order[f].second;
-                order[f].first--;
-                i+=2;
-                if(i>=n) i=1;
-            }
-      }
-      for(int i=0;i<a.size();i++){
-        ans+=a[i]+'a';
-      }
-      return ans;
+            if (--freq1 > 0) max_heap.push({freq1, char1});
+            if (--freq2 > 0) max_heap.push({freq2, char2});
+        }
+
+        if (!max_heap.empty()) {
+            auto [freq, ch] = max_heap.top();
+
+            res += ch;
+        }
+
+        return res;
     }
 };
