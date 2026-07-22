@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leherjoshi/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/leherjoshi/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/leherjoshi/leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/leherjoshi/leetcode/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/leherjoshi/leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/leherjoshi/leetcode/tree/master/0189-rotate-array) |
@@ -473,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/leherjoshi/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/leherjoshi/leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/leherjoshi/leetcode/tree/master/0135-candy) |
 | [0316-remove-duplicate-letters](https://github.com/leherjoshi/leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0621-task-scheduler](https://github.com/leherjoshi/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
