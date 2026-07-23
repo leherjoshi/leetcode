@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/leherjoshi/leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/leherjoshi/leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/leherjoshi/leetcode/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/leherjoshi/leetcode/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/leherjoshi/leetcode/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
