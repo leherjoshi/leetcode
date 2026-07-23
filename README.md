@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2894-divisible-and-non-divisible-sums-difference](https://github.com/leherjoshi/leetcode/tree/master/2894-divisible-and-non-divisible-sums-difference) |
 | [3312-sorted-gcd-pair-queries](https://github.com/leherjoshi/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/leherjoshi/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/leherjoshi/leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/leherjoshi/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/leherjoshi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/leherjoshi/leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/leherjoshi/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/leherjoshi/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3598-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/leherjoshi/leetcode/tree/master/3598-longest-common-prefix-between-adjacent-strings-after-removals) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0393-utf-8-validation](https://github.com/leherjoshi/leetcode/tree/master/0393-utf-8-validation) |
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/leherjoshi/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
 ## Two Pointers
