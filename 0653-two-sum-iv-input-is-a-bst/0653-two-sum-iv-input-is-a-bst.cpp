@@ -11,30 +11,24 @@
  */
 class Solution {
 public:
-vector<int> nums;
+int target;
+unordered_map<int, int> mp;
+bool dfs(TreeNode* root) {
+    if (!root) return false;
 
-void inorder(TreeNode* root) {
-    if (root == NULL)
-        return;
+    if (mp.count(target - root->val))
+        return true;
 
-    inorder(root->left);
-    nums.push_back(root->val);
-    inorder(root->right);
+    mp[root->val]++;
+
+    return dfs(root->left) || dfs(root->right);
 }
-    bool findTarget(TreeNode* root, int target) {
-         inorder(root);
-         unordered_map<int, int> mp;
+    bool findTarget(TreeNode* root, int k) {
+        target=k;
+         return dfs(root);
 
-        for (int i = 0; i < nums.size(); i++) {
-            int need = target - nums[i];
 
-            if (mp.find(need) != mp.end()) {
-                return true;
-            }
 
-            mp[nums[i]] = i;
-        }
-
-        return false;
+       
     }
 };
