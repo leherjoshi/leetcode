@@ -1,16 +1,18 @@
 class Solution {
 public:
     int maxProduct(int n) {
-        vector<int>a;
-        while(n>0){
-            int r=n%10;
-            
-            n/=10;
-            a.push_back(r);
-            
+       int m1=0,m2=0;
+       while(n>0){
+        int d=n%10;
+        if(d>m1){
+            m2=m1;
+            m1=d;
         }
-        sort(a.begin(),a.end());
-        int nu=a.size();
-        return a[nu-1]*a[nu-2];
+        else if(d>m2){
+            m2=d;
+        }
+        n/=10;
+       }
+       return m1*m2;
     }
 };
