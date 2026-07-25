@@ -1,9 +1,16 @@
 class Solution {
 public:
     int maxProduct(int n) {
-        string s=to_string(n);
-        sort(s.begin(),s.end());
-        int nu=s.size();
-        return (s[nu-1]-'0')*(s[nu-2]-'0');
+        vector<int>a;
+        while(n>0){
+            int r=n%10;
+            
+            n/=10;
+            a.push_back(r);
+            
+        }
+        sort(a.begin(),a.end());
+        int nu=a.size();
+        return a[nu-1]*a[nu-2];
     }
 };
