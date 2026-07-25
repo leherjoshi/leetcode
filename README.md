@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/leherjoshi/leetcode/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [0058-length-of-last-word](https://github.com/leherjoshi/leetcode/tree/master/0058-length-of-last-word) |
+| [0125-valid-palindrome](https://github.com/leherjoshi/leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/leherjoshi/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/leherjoshi/leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/leherjoshi/leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/leherjoshi/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/leherjoshi/leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/leherjoshi/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/leherjoshi/leetcode/tree/master/0165-compare-version-numbers) |
 | [0189-rotate-array](https://github.com/leherjoshi/leetcode/tree/master/0189-rotate-array) |
