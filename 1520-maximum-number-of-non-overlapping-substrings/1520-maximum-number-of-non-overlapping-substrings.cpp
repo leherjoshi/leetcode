@@ -1,48 +1,124 @@
 class Solution {
 public:
     vector<string> maxNumOfSubstrings(string s) {
+
         int n = s.size();
+
         vector<int> first(26, n), last(26, -1);
+
         for (int i = 0; i < n; i++) {
-            first[s[i] - 'a'] = min(first[s[i] - 'a'], i);
-            last[s[i] - 'a'] = max(last[s[i] - 'a'], i);
+            int c = s[i] - 'a';
+            first[c] = min(first[c], i);
+            last[c] = i;
         }
 
-        vector<pair<int, int>> interval;
+        vector<vector<int>> g(26), rg(26);
 
-        for (int i = 0; i < 26; i++) {
-            if (first[i] == n)
-                continue;
+        // Build dependency graph
+        for (int c = 0; c < 26; c++) {
 
-            int f = first[i];
-            int l = last[i];
-            bool valid = true;
+            if (last[c] == -1) continue;
 
-            for (int k = f; k <= l && valid; k++) {
-                char ch = s[k];
-                if (first[ch - 'a'] < f) {
-                    valid = false;
-                    break;
+            for (int i = first[c]; i <= last[c]; i++) {
+
+                int d = s[i] - 'a';
+
+                if (d != c) {
+                    g[c].push_back(d);
+                    rg[d].push_back(c);
                 }
-                l = max(l, last[ch - 'a']);
             }
-            if (valid)
-                interval.push_back({f, l});
         }
 
-        sort(interval.begin(), interval.end(), [&](auto& a, auto& b) {
-            if (a.second == b.second)
-                return a.first > b.first;
-            return a.second < b.second;
-        });
+        vector<int> vis(26, 0);
+        stack<int> st;
+
+        function<void(int)> dfs1 = [&](int u) {
+
+            vis[u] = 1;
+
+            for (int v : g[u])
+                if (!vis[v])
+                    dfs1(v);
+
+            st.push(u);
+        };
+
+        for (int i = 0; i < 26; i++)
+            if (last[i] != -1 && !vis[i])
+                dfs1(i);
+
+        fill(vis.begin(), vis.end(), 0);
+
+        vector<pair<int,int>> intervals;
+
+        function<void(int, vector<int>&)> dfs2 =
+        [&](int u, vector<int>& comp) {
+
+            vis[u] = 1;
+            comp.push_back(u);
+
+            for (int v : rg[u])
+                if (!vis[v])
+                    dfs2(v, comp);
+        };
+
+        while (!st.empty()) {
+
+            int u = st.top();
+            st.pop();
+
+            if (vis[u]) continue;
+
+            vector<int> comp;
+
+            dfs2(u, comp);
+
+            int L = n;
+            int R = -1;
+
+            for (int x : comp) {
+                L = min(L, first[x]);
+                R = max(R, last[x]);
+            }
+
+            bool ok = true;
+
+            for (int i = L; i <= R && ok; i++) {
+
+                int ch = s[i] - 'a';
+
+                if (first[ch] < L || last[ch] > R)
+                    ok = false;
+            }
+
+            if (ok)
+                intervals.push_back({L, R});
+        }
+
+        sort(intervals.begin(), intervals.end(),
+             [](auto &a, auto &b) {
+
+                 if (a.second == b.second)
+                     return a.first > b.first;
+
+                 return a.second < b.second;
+             });
+
         vector<string> ans;
+
         int end = -1;
-        for (auto it : interval) {
-            if (it.first > end) {
-                ans.push_back(s.substr(it.first, it.second - it.first + 1));
-                end = it.second;
+
+        for (auto &p : intervals) {
+
+            if (p.first > end) {
+
+                ans.push_back(s.substr(p.first, p.second - p.first + 1));
+
+                end = p.second;
             }
         }
+
         return ans;
     }
 };
