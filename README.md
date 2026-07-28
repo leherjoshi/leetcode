@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/leherjoshi/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/leherjoshi/leetcode/tree/master/0056-merge-intervals) |
+| [0064-minimum-path-sum](https://github.com/leherjoshi/leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/leherjoshi/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/leherjoshi/leetcode/tree/master/0078-subsets) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/leherjoshi/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/leherjoshi/leetcode/tree/master/0064-minimum-path-sum) |
 | [0118-pascals-triangle](https://github.com/leherjoshi/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leherjoshi/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/leherjoshi/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
+| [0064-minimum-path-sum](https://github.com/leherjoshi/leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0221-maximal-square](https://github.com/leherjoshi/leetcode/tree/master/0221-maximal-square) |
 | [1260-shift-2d-grid](https://github.com/leherjoshi/leetcode/tree/master/1260-shift-2d-grid) |
