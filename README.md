@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/leherjoshi/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0393-utf-8-validation](https://github.com/leherjoshi/leetcode/tree/master/0393-utf-8-validation) |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
+| [0403-frog-jump](https://github.com/leherjoshi/leetcode/tree/master/0403-frog-jump) |
 | [0485-max-consecutive-ones](https://github.com/leherjoshi/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/leherjoshi/leetcode/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/leherjoshi/leetcode/tree/master/0496-next-greater-element-i) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/leherjoshi/leetcode/tree/master/0221-maximal-square) |
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
+| [0403-frog-jump](https://github.com/leherjoshi/leetcode/tree/master/0403-frog-jump) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/leherjoshi/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
