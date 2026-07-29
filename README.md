@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/leherjoshi/leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/leherjoshi/leetcode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/leherjoshi/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0628-maximum-product-of-three-numbers](https://github.com/leherjoshi/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/leherjoshi/leetcode/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/leherjoshi/leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/leherjoshi/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/leherjoshi/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leherjoshi/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -687,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/leherjoshi/leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/leherjoshi/leetcode/tree/master/0139-word-break) |
 ## Data Stream
 |  |
