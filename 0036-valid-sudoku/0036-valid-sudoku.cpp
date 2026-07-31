@@ -1,35 +1,28 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        
-        for(int i=0;i<9;i++){
-            unordered_map<int,int>mp;
-            unordered_map<int,int>mp2;
-            for(int j=0;j<9;j++){
-                if(board[i][j] != '.'){
-                mp[board[i][j]]++;
-                if(mp[board[i][j]]>=2)return false;
-                }
-                if(board[j][i] != '.'){
-                mp2[board[j][i]]++;
-                if(mp2[board[j][i]]>=2)return false;
-                }
-            }
 
-        }
-       for(int k=0;k<9;k++){
-        unordered_map<int,int>mp3;
-        int row=(k/3)*3;
-        int col=(k%3)*3;
-         for(int i=row;i<row+3;i++){
-            for(int j=col;j<col+3;j++){
-                if(board[j][i] != '.'){
-                mp3[board[j][i]]++;
-                if(mp3[board[j][i]]>=2)return false;
-                }
+        int row[9][9] = {};
+        int col[9][9] = {};
+        int box[9][9] = {};
+
+        for(int i = 0; i < 9; i++) {
+            for(int j = 0; j < 9; j++) {
+
+                if(board[i][j] == '.') continue;
+
+                int num = board[i][j] - '1';
+                int boxIndex = (i / 3) * 3 + (j / 3);
+
+                if(row[i][num] || col[j][num] || box[boxIndex][num])
+                    return false;
+
+                row[i][num] = 1;
+                col[j][num] = 1;
+                box[boxIndex][num] = 1;
             }
-         }
-       }
+        }
+
         return true;
     }
 };
