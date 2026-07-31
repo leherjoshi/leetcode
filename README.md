@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/leherjoshi/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/leherjoshi/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Array
 |  |
 | ------- |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-build-an-array-with-stack-operations](https://github.com/leherjoshi/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1463-cherry-pickup-ii](https://github.com/leherjoshi/leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1920-build-array-from-permutation](https://github.com/leherjoshi/leetcode/tree/master/1920-build-array-from-permutation) |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1463-cherry-pickup-ii](https://github.com/leherjoshi/leetcode/tree/master/1463-cherry-pickup-ii) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2054-two-best-non-overlapping-events](https://github.com/leherjoshi/leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
