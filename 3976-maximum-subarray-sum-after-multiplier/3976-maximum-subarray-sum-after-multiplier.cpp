@@ -1,48 +1,45 @@
 class Solution {
 public:
-    long long calc(vector<int>& nums, int k, bool mul) {
-        const long long NEG = -(1LL << 60);
+    long long solve(vector<int>& nums, int k, bool mul) {
+        int n = nums.size();
 
-        long long no = NEG;     // operation not started
-        long long in = NEG;     // inside operated subarray
-        long long done = NEG;   // operation finished
+        auto conv = [&](int x) -> long long {
+            if (mul) return 1LL * x * k;
+            return 1LL * (x / k);   // C++: floor for +ve, ceil for -ve
+        };
+
+        const long long NEG = -4e18;
+
+        long long dp0 = NEG; // no operation started
+        long long dp1 = NEG; // inside operated segment
+        long long dp2 = NEG; // operation finished
+
         long long ans = NEG;
 
         for (int x : nums) {
-            long long y;
+            long long y = conv(x);
 
-            if (mul)
-                y = 1LL * x * k;
-            else {
-                
-                    y = x / k;      // floor
-                        // ceil (C++ truncates toward 0)
-            }
+            long long ndp2 = max(dp2 + x, dp1 + x);
 
-            long long n_no = max(no + x, 1LL * x);
-
-            long long n_in = max({
+            long long ndp1 = max({
                 y,
-                no + y,
-                in + y
+                dp0 + y,
+                dp1 + y
             });
 
-            long long n_done = max({
-                in + 1LL * x,
-                done + 1LL * x
-            });
+            long long ndp0 = max(1LL * x, dp0 + x);
 
-            no = n_no;
-            in = n_in;
-            done = n_done;
+            dp0 = ndp0;
+            dp1 = ndp1;
+            dp2 = ndp2;
 
-            ans = max({ans, no, in, done});
+            ans = max({ans, dp0, dp1, dp2});
         }
 
         return ans;
     }
 
     long long maxSubarraySum(vector<int>& nums, int k) {
-        return max(calc(nums, k, true), calc(nums, k, false));
+        return max(solve(nums, k, true), solve(nums, k, false));
     }
 };
