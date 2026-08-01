@@ -1,26 +1,21 @@
 class Solution {
 public:
+    const int mod = 1e9 + 7;
     long long maxSum(vector<int>& nums, int k, int mul) {
+       
         sort(nums.begin(), nums.end(), greater<int>());
+        long long tot = 0;
+        int t=min(k,mul);
 
-        long long ans = 0;
-
-        // Number of useful multipliers (>1)
-        int t = min(k, max(0, mul - 1));
-
-        int cur = mul;
-
-        // Use multiplication on the largest t elements
-        for (int i = 0; i < t; i++) {
-            ans += 1LL * nums[i] * cur;
-            cur--;
+       for (int i = 0; i < t && mul>0; i++) {
+            tot += 1LL * nums[i] * mul;
+            mul--;
         }
-
-        // Add the remaining selected elements normally
+       
         for (int i = t; i < k; i++) {
-            ans += nums[i];
+            tot += nums[i];
         }
 
-        return ans;
+        return tot;
     }
 };
