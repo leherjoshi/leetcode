@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3898-find-the-degree-of-each-vertex](https://github.com/leherjoshi/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3925-concatenate-array-with-reverse](https://github.com/leherjoshi/leetcode/tree/master/3925-concatenate-array-with-reverse) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/leherjoshi/leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
+| [3975-filter-occupied-intervals](https://github.com/leherjoshi/leetcode/tree/master/3975-filter-occupied-intervals) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3536-maximum-product-of-two-digits](https://github.com/leherjoshi/leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/leherjoshi/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/leherjoshi/leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
+| [3975-filter-occupied-intervals](https://github.com/leherjoshi/leetcode/tree/master/3975-filter-occupied-intervals) |
 ## Binary Search
 |  |
 | ------- |
