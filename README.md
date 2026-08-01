@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3925-concatenate-array-with-reverse](https://github.com/leherjoshi/leetcode/tree/master/3925-concatenate-array-with-reverse) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/leherjoshi/leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3975-filter-occupied-intervals](https://github.com/leherjoshi/leetcode/tree/master/3975-filter-occupied-intervals) |
+| [3976-maximum-subarray-sum-after-multiplier](https://github.com/leherjoshi/leetcode/tree/master/3976-maximum-subarray-sum-after-multiplier) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -319,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
 | [3620-network-recovery-pathways](https://github.com/leherjoshi/leetcode/tree/master/3620-network-recovery-pathways) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/leherjoshi/leetcode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
+| [3976-maximum-subarray-sum-after-multiplier](https://github.com/leherjoshi/leetcode/tree/master/3976-maximum-subarray-sum-after-multiplier) |
 ## Stack
 |  |
 | ------- |
