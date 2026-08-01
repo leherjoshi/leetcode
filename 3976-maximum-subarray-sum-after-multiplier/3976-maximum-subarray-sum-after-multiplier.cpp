@@ -14,10 +14,9 @@ public:
             if (mul)
                 y = 1LL * x * k;
             else {
-                if (x >= 0)
+                
                     y = x / k;      // floor
-                else
-                    y = x / k;      // ceil (C++ truncates toward 0)
+                        // ceil (C++ truncates toward 0)
             }
 
             long long n_no = max(no + x, 1LL * x);
