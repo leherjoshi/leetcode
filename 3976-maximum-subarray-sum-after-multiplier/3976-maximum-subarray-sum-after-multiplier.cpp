@@ -1,45 +1,32 @@
 class Solution {
 public:
-    long long solve(vector<int>& nums, int k, bool mul) {
-        int n = nums.size();
+    long long func(vector<int>& nums, vector<long long>&temp){
+        int n=nums.size();
+        long long mn = -4e18;
+        long long s0=mn, s1=mn, s2=mn, res=mn;
 
-        auto conv = [&](int x) -> long long {
-            if (mul) return 1LL * x * k;
-            return 1LL * (x / k);   // C++: floor for +ve, ceil for -ve
-        };
+        for(int i=0; i<n; i++){
+            long long x1=nums[i];
+            long long x2=temp[i];
+            long long n0 = max(s0+x1, x1);
+            long long n1 = max({x2,s0+x2,s1+x2});
+            long long n2 = max({s1 + x1, s2 + x1});
 
-        const long long NEG = -4e18;
-
-        long long dp0 = NEG; // no operation started
-        long long dp1 = NEG; // inside operated segment
-        long long dp2 = NEG; // operation finished
-
-        long long ans = NEG;
-
-        for (int x : nums) {
-            long long y = conv(x);
-
-            long long ndp2 = max(dp2 + x, dp1 + x);
-
-            long long ndp1 = max({
-                y,
-                dp0 + y,
-                dp1 + y
-            });
-
-            long long ndp0 = max(1LL * x, dp0 + x);
-
-            dp0 = ndp0;
-            dp1 = ndp1;
-            dp2 = ndp2;
-
-            ans = max({ans, dp0, dp1, dp2});
+            s0 =n0;
+            s1=n1;
+            s2=n2;
+            res=max({res,s1,s2});
         }
-
-        return ans;
+        return res;
     }
-
     long long maxSubarraySum(vector<int>& nums, int k) {
-        return max(solve(nums, k, true), solve(nums, k, false));
+        int n=nums.size();
+        vector<long long>multii(n); vector<long long>div(n);
+        for(int i=0; i<n; i++){
+            multii[i]=1LL * nums[i] * k;
+            if(nums[i]>=0)div[i]=nums[i]/k;
+            else  div[i] = -((-nums[i]) / k);
+        }
+        return max(func(nums, multii), func(nums, div));
     }
 };
