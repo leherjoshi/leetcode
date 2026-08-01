@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/leherjoshi/leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/leherjoshi/leetcode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/leherjoshi/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/leherjoshi/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/leherjoshi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [0403-frog-jump](https://github.com/leherjoshi/leetcode/tree/master/0403-frog-jump) |
 | [0485-max-consecutive-ones](https://github.com/leherjoshi/leetcode/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/leherjoshi/leetcode/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/leherjoshi/leetcode/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -316,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
 | [0403-frog-jump](https://github.com/leherjoshi/leetcode/tree/master/0403-frog-jump) |
+| [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/leherjoshi/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -352,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/leherjoshi/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0394-decode-string](https://github.com/leherjoshi/leetcode/tree/master/0394-decode-string) |
+| [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -723,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
 ## Trie
 |  |
