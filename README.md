@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/leherjoshi/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/leherjoshi/leetcode/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
+| [0049-group-anagrams](https://github.com/leherjoshi/leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/leherjoshi/leetcode/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/leherjoshi/leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/leherjoshi/leetcode/tree/master/0131-palindrome-partitioning) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/leherjoshi/leetcode/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/leherjoshi/leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/leherjoshi/leetcode/tree/master/0037-sudoku-solver) |
+| [0049-group-anagrams](https://github.com/leherjoshi/leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/leherjoshi/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/leherjoshi/leetcode/tree/master/0045-jump-game-ii) |
 | [0047-permutations-ii](https://github.com/leherjoshi/leetcode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/leherjoshi/leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/leherjoshi/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/leherjoshi/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
@@ -378,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/leherjoshi/leetcode/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/leherjoshi/leetcode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/leherjoshi/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/leherjoshi/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/leherjoshi/leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0088-merge-sorted-array) |
