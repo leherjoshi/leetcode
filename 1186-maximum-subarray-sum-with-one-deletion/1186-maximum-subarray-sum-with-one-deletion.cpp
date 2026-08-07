@@ -1,33 +1,14 @@
-#include <vector>
-#include <algorithm>
-
 class Solution {
 public:
-    int maximumSum(std::vector<int>& arr) {
+    int maximumSum(vector<int>& arr) {
         int n = arr.size();
-        if (n == 1) return arr[0];
-
-        // maxNoDelete: Standard Kadane's state (no elements deleted).
-        int maxNoDelete = arr[0];
-        
-        // maxOneDelete: Max sum ending at i with one element deleted.
-        int maxOneDelete = arr[0];
-        int result = arr[0];
-
+        int keep = arr[0], drop = 0; // drop=0 means "no element deleted yet at i=0"
+        int ans = arr[0];
         for (int i = 1; i < n; i++) {
-            int prevNoDelete = maxNoDelete;
-
-            // Update no-deletion state (Standard Kadane).
-            maxNoDelete = std::max(maxNoDelete + arr[i], arr[i]);
-
-            /* Update one-deletion state:
-               - Keep current element but a past element was deleted.
-               - Delete current element (take previous no-delete sum).
-            */
-            maxOneDelete = std::max(maxOneDelete + arr[i], prevNoDelete);
-
-            result = std::max({result, maxNoDelete, maxOneDelete});
+            drop = max(drop + arr[i], keep);      // delete arr[i], or had already deleted earlier
+            keep = max(keep, 0) + arr[i];          // no deletion so far: extend or restart
+            ans = max({ans, keep, drop});
         }
-        return result;
+        return ans;
     }
 };
