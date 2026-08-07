@@ -5,6 +5,10 @@ public:
         int sum = 0;
 
         for (int i = 0; i < weights.size(); i++) {
+
+            if (weights[i] > mid)
+                return false;
+
             if (sum + weights[i] > mid) {
                 day++;
                 sum = 0;
@@ -17,10 +21,9 @@ public:
     }
 
     int shipWithinDays(vector<int>& weights, int days) {
-        int low = *max_element(weights.begin(), weights.end());
+        int low = 0;
         int high = accumulate(weights.begin(), weights.end(), 0);
-
-        int ans = high;
+        int ans = 0;
 
         while (low <= high) {
             int mid = (low + high) / 2;
@@ -28,7 +31,8 @@ public:
             if (solve(weights, days, mid)) {
                 ans = mid;
                 high = mid - 1;
-            } else {
+            }
+            else {
                 low = mid + 1;
             }
         }
