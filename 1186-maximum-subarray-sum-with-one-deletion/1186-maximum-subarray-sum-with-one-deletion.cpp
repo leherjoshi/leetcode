@@ -1,25 +1,41 @@
 class Solution {
 public:
+    int solve(int i, int deleted, vector<int>& arr,
+              vector<vector<int>>& dp) {
+
+        if(i == 0) {
+            return arr[0];
+        }
+
+        if(dp[i][deleted] != -1e9)
+            return dp[i][deleted];
+
+        // Take arr[i]
+        int take = arr[i] + solve(i-1, deleted, arr, dp);
+
+        // Start new subarray from arr[i]
+        take = max(take, arr[i]);
+
+        int del = -1e9;
+
+        // Delete arr[i]
+        if(deleted == 0) {
+            del = solve(i-1, 1, arr, dp);
+        }
+
+        return dp[i][deleted] = max(take, del);
+    }
+
     int maximumSum(vector<int>& arr) {
         int n = arr.size();
 
-        vector<vector<int>> dp(n, vector<int>(2));
+        vector<vector<int>> dp(n, vector<int>(2, -1e9));
 
-        dp[0][0] = arr[0];
-        dp[0][1] = -1e9;
+        int ans = -1e9;
 
-        int ans = arr[0];
-
-        for(int i = 1; i < n; i++) {
-
-            // Don't delete arr[i]
-            dp[i][0] = max(arr[i], dp[i-1][0] + arr[i]);
-
-            // Delete arr[i] OR deletion was already used
-            dp[i][1] = max(dp[i-1][0],
-                           dp[i-1][1] + arr[i]);
-
-            ans = max(ans, max(dp[i][0], dp[i][1]));
+        for(int i = 0; i < n; i++) {
+            ans = max(ans, solve(i, 0, arr, dp));
+            ans = max(ans, solve(i, 1, arr, dp));
         }
 
         return ans;
