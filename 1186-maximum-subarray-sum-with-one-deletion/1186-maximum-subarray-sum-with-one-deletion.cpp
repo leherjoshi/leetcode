@@ -1,43 +1,33 @@
+#include <vector>
+#include <algorithm>
+
 class Solution {
 public:
-    int solve(int i, int deleted, vector<int>& arr,
-              vector<vector<int>>& dp) {
-
-        if(i == 0) {
-            return arr[0];
-        }
-
-        if(dp[i][deleted] != -1e9)
-            return dp[i][deleted];
-
-        // Take arr[i]
-        int take = arr[i] + solve(i-1, deleted, arr, dp);
-
-        // Start new subarray from arr[i]
-        take = max(take, arr[i]);
-
-        int del = -1e9;
-
-        // Delete arr[i]
-        if(deleted == 0) {
-            del = solve(i-1, 1, arr, dp);
-        }
-
-        return dp[i][deleted] = max(take, del);
-    }
-
-    int maximumSum(vector<int>& arr) {
+    int maximumSum(std::vector<int>& arr) {
         int n = arr.size();
+        if (n == 1) return arr[0];
 
-        vector<vector<int>> dp(n, vector<int>(2, -1e9));
+        // maxNoDelete: Standard Kadane's state (no elements deleted).
+        int maxNoDelete = arr[0];
+        
+        // maxOneDelete: Max sum ending at i with one element deleted.
+        int maxOneDelete = arr[0];
+        int result = arr[0];
 
-        int ans = -1e9;
+        for (int i = 1; i < n; i++) {
+            int prevNoDelete = maxNoDelete;
 
-        for(int i = 0; i < n; i++) {
-            ans = max(ans, solve(i, 0, arr, dp));
-            ans = max(ans, solve(i, 1, arr, dp));
+            // Update no-deletion state (Standard Kadane).
+            maxNoDelete = std::max(maxNoDelete + arr[i], arr[i]);
+
+            /* Update one-deletion state:
+               - Keep current element but a past element was deleted.
+               - Delete current element (take previous no-delete sum).
+            */
+            maxOneDelete = std::max(maxOneDelete + arr[i], prevNoDelete);
+
+            result = std::max({result, maxNoDelete, maxOneDelete});
         }
-
-        return ans;
+        return result;
     }
 };
