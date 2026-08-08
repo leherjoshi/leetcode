@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/leherjoshi/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/leherjoshi/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3110-score-of-a-string](https://github.com/leherjoshi/leetcode/tree/master/3110-score-of-a-string) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/leherjoshi/leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/leherjoshi/leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/leherjoshi/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/leherjoshi/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
@@ -364,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1824-minimum-sideway-jumps](https://github.com/leherjoshi/leetcode/tree/master/1824-minimum-sideway-jumps) |
 | [2054-two-best-non-overlapping-events](https://github.com/leherjoshi/leetcode/tree/master/2054-two-best-non-overlapping-events) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/leherjoshi/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -677,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/leherjoshi/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/leherjoshi/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/leherjoshi/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/leherjoshi/leetcode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/leherjoshi/leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
