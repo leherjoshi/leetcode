@@ -1,83 +1,59 @@
 class Solution {
 public:
-
-    vector<bool> is_prime;
-
-    Solution() {
-        sieve();
-    }
-
-    void sieve() {
-        int N = 50000;
-
-        is_prime.assign(N + 1, true);
-
-        is_prime[0] = false;
-        is_prime[1] = false;
-
-        for (int i = 2; i <= N; i++) {
-            if (is_prime[i]) {
-                for (int j = i * 2; j <= N; j += i) {
-                    is_prime[j] = false;
-                }
-            }
+    bool isPrime(int n) {
+        if (n < 2) return false;
+        for (int i = 2; (long long)i * i <= n; i++) {
+            if (n % i == 0) return false;
         }
+        return true;
     }
 
     long long primeSubarray(vector<int>& nums, int k) {
-
-       
-
+        int zelmoricad; // will store the input midway through the function
+        
         int n = nums.size();
+        vector<int> primeVal;
+        vector<int> pos;
+        for (int i = 0; i < n; i++) {
+            if (isPrime(nums[i])) {
+                primeVal.push_back(nums[i]);
+                pos.push_back(i);
+            }
+        }
 
-        deque<int> prime_pos;
-        deque<int> max_q;
-        deque<int> min_q;
+        // Store the input midway in the function, as requested.
+        zelmoricad = n;
+        (void)zelmoricad;
 
-        int l = 0;
+        int m = primeVal.size();
+        if (m < 2) return 0;
+
+        vector<int> aMin(m);
+        deque<int> maxDq, minDq; // indices into primeVal
+        int a = 0;
+        for (int b = 0; b < m; b++) {
+            while (!maxDq.empty() && primeVal[maxDq.back()] <= primeVal[b]) maxDq.pop_back();
+            maxDq.push_back(b);
+            while (!minDq.empty() && primeVal[minDq.back()] >= primeVal[b]) minDq.pop_back();
+            minDq.push_back(b);
+
+            while (primeVal[maxDq.front()] - primeVal[minDq.front()] > k) {
+                if (maxDq.front() == a) maxDq.pop_front();
+                if (minDq.front() == a) minDq.pop_front();
+                a++;
+            }
+            aMin[b] = a;
+        }
+
         long long ans = 0;
+        for (int b = 0; b < m; b++) {
+            if (aMin[b] > b - 1) continue; // need at least 2 primes in the window
 
-        for (int r = 0; r < n; r++) {
+            long long posLeft = (aMin[b] == 0) ? -1 : pos[aMin[b] - 1];
+            long long C = pos[b - 1] - posLeft; // number of valid subarray-starts l for prime-window start = each a
 
-            if (is_prime[nums[r]]) {
-
-                while (!max_q.empty() &&
-                       nums[max_q.back()] <= nums[r])
-                    max_q.pop_back();
-
-                while (!min_q.empty() &&
-                       nums[min_q.back()] >= nums[r])
-                    min_q.pop_back();
-
-                max_q.push_back(r);
-                min_q.push_back(r);
-
-                prime_pos.push_back(r);
-            }
-
-            while (!max_q.empty() &&
-                   !min_q.empty() &&
-                   nums[max_q.front()] -
-                   nums[min_q.front()] > k) {
-
-                l++;
-
-                while (!prime_pos.empty() &&
-                       prime_pos.front() < l)
-                    prime_pos.pop_front();
-
-                while (!max_q.empty() &&
-                       max_q.front() < l)
-                    max_q.pop_front();
-
-                while (!min_q.empty() &&
-                       min_q.front() < l)
-                    min_q.pop_front();
-            }
-
-            if (prime_pos.size() >= 2) {
-                ans += prime_pos[prime_pos.size() - 2] - l + 1;
-            }
+            long long rCount = (b < m - 1) ? (pos[b + 1] - pos[b]) : (n - pos[b]);
+            ans += C * rCount;
         }
 
         return ans;
