@@ -29,7 +29,7 @@ public:
             adj[e[1]].push_back({e[0],1});
         }
         dfs(0,-1);
-        reroot(0,-1);
+        //reroot(0,-1);
         return n-ans[0]-1;
     }
 };
