@@ -325,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3668-restore-finishing-order](https://github.com/leherjoshi/leetcode/tree/master/3668-restore-finishing-order) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/leherjoshi/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3731-find-missing-elements](https://github.com/leherjoshi/leetcode/tree/master/3731-find-missing-elements) |
+| [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/leherjoshi/leetcode/tree/master/3835-count-subarrays-with-cost-less-than-or-equal-to-k) |
 | [3836-maximum-score-using-exactly-k-pairs](https://github.com/leherjoshi/leetcode/tree/master/3836-maximum-score-using-exactly-k-pairs) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/leherjoshi/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/leherjoshi/leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
@@ -914,11 +915,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/leherjoshi/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0239-sliding-window-maximum](https://github.com/leherjoshi/leetcode/tree/master/0239-sliding-window-maximum) |
 | [3589-count-prime-gap-balanced-subarrays](https://github.com/leherjoshi/leetcode/tree/master/3589-count-prime-gap-balanced-subarrays) |
+| [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/leherjoshi/leetcode/tree/master/3835-count-subarrays-with-cost-less-than-or-equal-to-k) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/leherjoshi/leetcode/tree/master/0239-sliding-window-maximum) |
 | [3589-count-prime-gap-balanced-subarrays](https://github.com/leherjoshi/leetcode/tree/master/3589-count-prime-gap-balanced-subarrays) |
+| [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/leherjoshi/leetcode/tree/master/3835-count-subarrays-with-cost-less-than-or-equal-to-k) |
 ## Doubly-Linked List
 |  |
 | ------- |
