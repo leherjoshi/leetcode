@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/leherjoshi/leetcode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/leherjoshi/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1019-next-greater-node-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/1019-next-greater-node-in-linked-list) |
+| [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/leherjoshi/leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/leherjoshi/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
@@ -463,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/leherjoshi/leetcode/tree/master/0221-maximal-square) |
 | [0289-game-of-life](https://github.com/leherjoshi/leetcode/tree/master/0289-game-of-life) |
 | [0994-rotting-oranges](https://github.com/leherjoshi/leetcode/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1260-shift-2d-grid](https://github.com/leherjoshi/leetcode/tree/master/1260-shift-2d-grid) |
 | [1463-cherry-pickup-ii](https://github.com/leherjoshi/leetcode/tree/master/1463-cherry-pickup-ii) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0994-rotting-oranges](https://github.com/leherjoshi/leetcode/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1306-jump-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1306-jump-game-iii) |
 | [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/leherjoshi/leetcode/tree/master/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/leherjoshi/leetcode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -559,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/leherjoshi/leetcode/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/leherjoshi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/leherjoshi/leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -618,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
+| [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
 | [1306-jump-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1306-jump-game-iii) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
