@@ -8,9 +8,9 @@ public:
 
         auto it2 = upper_bound(nums.begin(), nums.end(), target);
 
-        return {
-            (int)(it - nums.begin()),
-            (int)(it2 - nums.begin() - 1)
-        };
+        vector<int> v;
+        v.push_back(it - nums.begin());
+        v.push_back(it2 - nums.begin() - 1);
+        return v;
     }
 };
