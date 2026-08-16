@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/leherjoshi/leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/leherjoshi/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/leherjoshi/leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/leherjoshi/leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/leherjoshi/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-build-an-array-with-stack-operations](https://github.com/leherjoshi/leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1463-cherry-pickup-ii](https://github.com/leherjoshi/leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/leherjoshi/leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -510,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/leherjoshi/leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/leherjoshi/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/leherjoshi/leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/leherjoshi/leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -761,6 +764,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/leherjoshi/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/leherjoshi/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/leherjoshi/leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/leherjoshi/leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/leherjoshi/leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/leherjoshi/leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -814,6 +818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/leherjoshi/leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/leherjoshi/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/leherjoshi/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/leherjoshi/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
