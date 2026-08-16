@@ -259,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0393-utf-8-validation](https://github.com/leherjoshi/leetcode/tree/master/0393-utf-8-validation) |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [0403-frog-jump](https://github.com/leherjoshi/leetcode/tree/master/0403-frog-jump) |
+| [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/leherjoshi/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0392-is-subsequence) |
 | [0403-frog-jump](https://github.com/leherjoshi/leetcode/tree/master/0403-frog-jump) |
+| [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/leherjoshi/leetcode/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
@@ -540,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/leherjoshi/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/leherjoshi/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/leherjoshi/leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/leherjoshi/leetcode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/leherjoshi/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/leherjoshi/leetcode/tree/master/0704-binary-search) |
@@ -764,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/leherjoshi/leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/leherjoshi/leetcode/tree/master/0135-candy) |
 | [0316-remove-duplicate-letters](https://github.com/leherjoshi/leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/leherjoshi/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/leherjoshi/leetcode/tree/master/0846-hand-of-straights) |
@@ -791,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/leherjoshi/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2207-maximize-number-of-subsequences-in-a-string](https://github.com/leherjoshi/leetcode/tree/master/2207-maximize-number-of-subsequences-in-a-string) |
