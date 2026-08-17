@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0172-factorial-trailing-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0189-rotate-array](https://github.com/leherjoshi/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/leherjoshi/leetcode/tree/master/0202-happy-number) |
+| [0263-ugly-number](https://github.com/leherjoshi/leetcode/tree/master/0263-ugly-number) |
 | [0282-expression-add-operators](https://github.com/leherjoshi/leetcode/tree/master/0282-expression-add-operators) |
 | [0380-insert-delete-getrandom-o1](https://github.com/leherjoshi/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
