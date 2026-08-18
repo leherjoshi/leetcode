@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/leherjoshi/leetcode/tree/master/0846-hand-of-straights) |
 | [0859-buddy-strings](https://github.com/leherjoshi/leetcode/tree/master/0859-buddy-strings) |
 | [0895-maximum-frequency-stack](https://github.com/leherjoshi/leetcode/tree/master/0895-maximum-frequency-stack) |
+| [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/leherjoshi/leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/leherjoshi/leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/leherjoshi/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/leherjoshi/leetcode/tree/master/0877-stone-game) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
+| [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [0994-rotting-oranges](https://github.com/leherjoshi/leetcode/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/leherjoshi/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1019-next-greater-node-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/1019-next-greater-node-in-linked-list) |
@@ -585,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [0994-rotting-oranges](https://github.com/leherjoshi/leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1306-jump-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1306-jump-game-iii) |
@@ -603,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/leherjoshi/leetcode/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/leherjoshi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/leherjoshi/leetcode/tree/master/2685-count-the-number-of-complete-components) |
@@ -662,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
@@ -723,6 +728,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/leherjoshi/leetcode/tree/master/0133-clone-graph) |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/leherjoshi/leetcode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/leherjoshi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/leherjoshi/leetcode/tree/master/2685-count-the-number-of-complete-components) |
