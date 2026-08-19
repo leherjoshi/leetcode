@@ -3,37 +3,33 @@ public:
     string decodeString(string s) {
         stack<int>count;
         stack<string>ss;
-
-        string curr="";
-        int cur=0;
-
-        for(char c:s){
+        int len=0;
+        string cur="";
+        for(int i=0;i<s.size();i++){
+            char c=s[i];
             if(isdigit(c)){
-                cur=cur*10+(c-'0');
-            }
-            else if(c=='['){
-                count.push(cur);
-                ss.push(curr);
-                cur=0;
-                curr="";
-            }
-            else if (c==']'){
-                int repeat=count.top();
+                len=len*10+c-'0';
+            }else if(c=='['){
+                count.push(len);
+                ss.push(cur);
+                len=0;
+                cur="";
+
+            }else if(c==']'){
+                int cnt=count.top();
                 count.pop();
                 string prev=ss.top();
                 ss.pop();
                 string temp=prev;
-                for(int i=0;i<repeat;i++){
-                    temp+=curr;
+                for(int j=0;j<cnt;j++){
+                    temp+=cur;
                 }
-                curr=temp;
-            }
-            else{
-                curr+=c;
+                cur=temp;
+
+            }else{
+                cur+=c;
             }
         }
-
-return curr;
-        
+        return cur;
     }
 };
