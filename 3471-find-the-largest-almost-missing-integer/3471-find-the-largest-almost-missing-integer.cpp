@@ -1,15 +1,28 @@
 class Solution {
 public:
-    int largestInteger(vector<int>& A, int k) {
-        int f[51] = {0};
-        for (auto& x : A)
-            f[x]++;
+    int largestInteger(vector<int>& nums, int k) {
+        unordered_map<int,int>mp;
+        int n=nums.size();
+        int cnt=0;
+        if(k==0||k==n)return *max_element(nums.begin(),nums.end());
+        
+        for(int i=0;i<nums.size();i++){
+            mp[nums[i]]++;
+        }
+        int maxi=-1;
+        if(k==1){
+            for(int i=0;i<n;i++){
+                if(mp[nums[i]]==1&&nums[i]>maxi){
+                    maxi=nums[i];
+                }
+            }
+            return maxi;
+        }
 
-        int res = -1, n = A.size();
-        for (int i = 0; i < n; i++)
-            if (k == n || (f[A[i]]==1 && (k==1||!i||i==n-1)))
-                res = max(res, A[i]);
+        int first=mp[nums[0]]==1?nums[0]:-1;
+        int last=mp[nums[n-1]]==1?nums[n-1]:-1;
 
-        return res;
+        return max(first,last);
+        
     }
 };
