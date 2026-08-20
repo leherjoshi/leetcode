@@ -1,30 +1,36 @@
 class MedianFinder {
 public:
-    //vector<int>v;
-    // int n;
-   // priority_queue<int>large;
-  //  priority_queue<int,vector<int>,greater<int>>small;
-
-
-
+    priority_queue<int>large;
+    priority_queue<int,vector<int>,greater<int>>small;
+   
     MedianFinder() {
         
     }
-   vector<int> v;
+    
+    void addNum(int num) {
+    
+       if(large.empty()||num<=large.top()){
+            large.push(num);
+       }else{
+            small.push(num);
+       } 
 
-void addNum(int num) {
-    auto it = lower_bound(v.begin(), v.end(), num);
-    v.insert(it, num);
-}
+       if(large.size() > small.size() + 1){
+            small.push(large.top());
+            large.pop();
+        }
 
-double findMedian() {
-    int n = v.size();
-
-    if (n % 2)
-        return v[n/2];
-
-    return (v[n/2] + v[n/2-1]) / 2.0;
-}
+        if(small.size() > large.size()){
+            large.push(small.top());
+            small.pop();
+        }
+    
+    }
+    
+    double findMedian() {
+        if(large.size()==small.size())return (large.top()+small.top())/2.0;
+        return large.top();
+    }
 };
 
 /**
