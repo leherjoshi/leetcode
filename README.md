@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/leherjoshi/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/leherjoshi/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1143-longest-common-subsequence](https://github.com/leherjoshi/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/leherjoshi/leetcode/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
+| [1143-longest-common-subsequence](https://github.com/leherjoshi/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/leherjoshi/leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/leherjoshi/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
@@ -1106,4 +1108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/leherjoshi/leetcode/tree/master/0322-coin-change) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/leherjoshi/leetcode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
