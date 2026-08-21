@@ -1,43 +1,20 @@
 class Solution {
 public:
-    pair<int,int> solve(int i, vector<int>& nums,
-                        vector<pair<int,int>>& dp) {
-
-        if(i == nums.size() - 1)
-            return {nums[i], nums[i]};
-
-        if(dp[i].first != INT_MAX)
-            return dp[i];
-
-        auto next = solve(i + 1, nums, dp);
-
-        int maxi = max({
-            nums[i],
-            nums[i] * next.first,
-            nums[i] * next.second
-        });
-
-        int mini = min({
-            nums[i],
-            nums[i] * next.first,
-            nums[i] * next.second
-        });
-
-        return dp[i] = {maxi, mini};
-    }
-
     int maxProduct(vector<int>& nums) {
-        int n = nums.size();
+        int maxi = nums[0];
+        int mini = nums[0];
+        int ans = nums[0];
 
-        vector<pair<int,int>> dp(
-            n, {INT_MAX, INT_MAX}
-        );
+        for(int i = 1; i < nums.size(); i++) {
+            int x = nums[i];
 
-        int ans = INT_MIN;
+            if(x < 0)
+                swap(maxi, mini);
 
-        for(int i = 0; i < n; i++) {
-            auto p = solve(i, nums, dp);
-            ans = max(ans, p.first);
+            maxi = max(x, maxi * x);
+            mini = min(x, mini * x);
+
+            ans = max(ans, maxi);
         }
 
         return ans;
