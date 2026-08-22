@@ -1132,4 +1132,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/leherjoshi/leetcode/tree/master/1143-longest-common-subsequence) |
+## Treap
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/leherjoshi/leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
