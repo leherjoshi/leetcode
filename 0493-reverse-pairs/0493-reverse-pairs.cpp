@@ -1,57 +1,69 @@
 class Solution {
 public:
-    int cnt;
+    int cnt = 0;
 
-    void merge(vector<int>& arr, int left, int mid, int right) {
+    void merge(vector<int>& nums, int left, int mid, int right) {
         vector<int> temp;
 
         int i = left;
         int j = mid + 1;
 
-        // Merge the two sorted halves
         while (i <= mid && j <= right) {
-            if (arr[i] <= arr[j]) {
-                temp.push_back(arr[i++]);
+            if (nums[i] <= nums[j]) {
+                temp.push_back(nums[i]);
+                i++;
             } else {
-             
-                temp.push_back(arr[j++]);
+                temp.push_back(nums[j]);
+                j++;
             }
         }
 
-        // Copy remaining elements of left half
         while (i <= mid) {
-            temp.push_back(arr[i++]);
+            temp.push_back(nums[i]);
+            i++;
         }
 
-        // Copy remaining elements of right half
         while (j <= right) {
-            temp.push_back(arr[j++]);
+            temp.push_back(nums[j]);
+            j++;
         }
 
-        // Copy back to original array
-        for (int k = left; k <= right; k++) {
-            arr[k] = temp[k - left];
+        for (int k = 0; k < temp.size(); k++) {
+            nums[left + k] = temp[k];
         }
     }
 
-    void mergesort(vector<int>& nums, int l, int r) {
-        if (l >= r)
+    void mergesort(vector<int>& nums, int i, int j) {
+        if (i >= j) {
             return;
-        int mid = (l + r) / 2;
-        mergesort(nums, l, mid);
-        mergesort(nums, mid + 1, r);
-        int j = mid + 1;
-
-        for (int i = l; i <= mid; i++) {
-            while (j <= r && (long long)nums[i] > 2LL * nums[j])
-                j++;
-            cnt += j - (mid + 1);
         }
-        merge(nums, l, mid, r);
+
+        int mid = (i + j) / 2;
+
+        mergesort(nums, i, mid);
+        mergesort(nums, mid + 1, j);
+
+        // Count reverse pairs
+        int right = mid + 1;
+
+        for (int k = i; k <= mid; k++) {
+            while (right <= j &&
+                   (long long)nums[k] > 2LL * nums[right]) {
+                right++;
+            }
+
+            cnt += right - (mid + 1);
+        }
+
+        // Merge both sorted halves
+        merge(nums, i, mid, j);
     }
+
     int reversePairs(vector<int>& nums) {
         cnt = 0;
+
         mergesort(nums, 0, nums.size() - 1);
+
         return cnt;
     }
 };
