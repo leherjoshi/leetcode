@@ -1,27 +1,39 @@
 class Solution {
 public:
-    void helper(vector<int>&nums,vector<bool>&used,vector<int>&cur,vector<vector<int>>&res){
-        if(cur.size()==nums.size()){
-            res.push_back(cur);
+    void solve(vector<int>& nums, int idx, vector<int>& ans,
+               vector<vector<int>>& res, vector<int>& visited) {
+
+        if(ans.size() == nums.size()) {
+            res.push_back(ans);
             return;
         }
 
-        for(int i=0;i<nums.size();i++){
-            if(used[i])continue;
-
-            used[i]=true;
-            cur.push_back(nums[i]);
-            helper(nums,used,cur,res);
-            cur.pop_back();
-            used[i]=false;
+        if(idx == nums.size()) {
+            return;
         }
+
+        // Take nums[idx]
+        if(!visited[idx]) {
+            visited[idx] = 1;
+            ans.push_back(nums[idx]);
+
+            solve(nums, 0, ans, res, visited);
+
+            ans.pop_back();
+            visited[idx] = 0;
+        }
+
+        // Not Take nums[idx]
+        solve(nums, idx + 1, ans, res, visited);
     }
 
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>>res;
-        vector<int>curr;
-        vector<bool>used(nums.size(),false);
-        helper(nums,used,curr,res);
+        vector<vector<int>> res;
+        vector<int> ans;
+        vector<int> visited(nums.size(), 0);
+
+        solve(nums, 0, ans, res, visited);
+
         return res;
     }
 };
