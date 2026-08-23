@@ -1,39 +1,30 @@
 class Solution {
 public:
-    bool sumGame(string num) {
-        int n = num.size();
-        int mid = n / 2;
+    bool sumGame(string nums) {
+        int lq=0;
+        int rq=0;
+        int lsum=0;
+        int rsum=0;
+        int n=nums.size()-1;
+        int mid=n/2;
+        for(int i=0;i<nums.size();i++){
+            if(mid>=i){
+                if(nums[i]=='?')lq++;
+                else{
+                    lsum+=nums[i]-'0';
+                }
+            }else{
+                if(nums[i]=='?')rq++;
+                else{
+                    rsum+=nums[i]-'0';
+                }
+            }
 
-        int leftsum = 0, rightsum = 0;
-        int leftq = 0, rightq = 0;
-
-        for (int i = 0; i < mid; i++) {
-            if (num[i] == '?')
-                leftq++;
-            else
-                leftsum += num[i] - '0';
         }
-
-        for (int i = mid; i < n; i++) {
-            if (num[i] == '?')
-                rightq++;
-            else
-                rightsum += num[i] - '0';
-        }
-
-        int diff = leftsum - rightsum;
-        int qdiff = leftq - rightq;
-
-        if (qdiff == 0)
-            return diff != 0;
-
-        if (qdiff > 0) {
-            if (qdiff % 2 == 1 && diff == 0)
-                return true;
-
-            return diff + (qdiff / 2) * 9 != 0;
-        }
-
-        return diff - ((-qdiff) / 2) * 9 != 0;
+        if(lq==rq)return lsum!=rsum;
+        if((lq+rq)%2!=0)return true;
+        int difq=lq-rq;
+        int dif=rsum-lsum;
+        return 9*(difq/2)!=dif;
     }
 };
