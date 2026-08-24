@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/leherjoshi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/leherjoshi/leetcode/tree/master/2029-stone-game-ix) |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1824-minimum-sideway-jumps](https://github.com/leherjoshi/leetcode/tree/master/1824-minimum-sideway-jumps) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [1920-build-array-from-permutation](https://github.com/leherjoshi/leetcode/tree/master/1920-build-array-from-permutation) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/leherjoshi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2011-final-value-of-variable-after-performing-operations](https://github.com/leherjoshi/leetcode/tree/master/2011-final-value-of-variable-after-performing-operations) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
 | [1824-minimum-sideway-jumps](https://github.com/leherjoshi/leetcode/tree/master/1824-minimum-sideway-jumps) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2054-two-best-non-overlapping-events](https://github.com/leherjoshi/leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/leherjoshi/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -876,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/leherjoshi/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2207-maximize-number-of-subsequences-in-a-string](https://github.com/leherjoshi/leetcode/tree/master/2207-maximize-number-of-subsequences-in-a-string) |
 | [3312-sorted-gcd-pair-queries](https://github.com/leherjoshi/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
@@ -988,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/leherjoshi/leetcode/tree/master/2029-stone-game-ix) |
 ## Trie
@@ -1086,6 +1091,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/leherjoshi/leetcode/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
@@ -1093,6 +1099,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/leherjoshi/leetcode/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
