@@ -199,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/leherjoshi/leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/leherjoshi/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3668-restore-finishing-order](https://github.com/leherjoshi/leetcode/tree/master/3668-restore-finishing-order) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/leherjoshi/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/leherjoshi/leetcode/tree/master/3731-find-missing-elements) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/leherjoshi/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3945-digit-frequency-score](https://github.com/leherjoshi/leetcode/tree/master/3945-digit-frequency-score) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3620-network-recovery-pathways](https://github.com/leherjoshi/leetcode/tree/master/3620-network-recovery-pathways) |
 | [3668-restore-finishing-order](https://github.com/leherjoshi/leetcode/tree/master/3668-restore-finishing-order) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/leherjoshi/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/leherjoshi/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/leherjoshi/leetcode/tree/master/3731-find-missing-elements) |
 | [3835-count-subarrays-with-cost-less-than-or-equal-to-k](https://github.com/leherjoshi/leetcode/tree/master/3835-count-subarrays-with-cost-less-than-or-equal-to-k) |
 | [3836-maximum-score-using-exactly-k-pairs](https://github.com/leherjoshi/leetcode/tree/master/3836-maximum-score-using-exactly-k-pairs) |
