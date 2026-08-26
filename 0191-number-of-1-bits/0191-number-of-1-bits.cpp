@@ -1,7 +1,13 @@
 class Solution {
 public:
-    int hammingWeight(unsigned int n) {
+    int hammingWeight(int n) {
+        
+      int cnt=0;
 
-       return popcount(n);
+      while(n){
+        n=n&(n-1);
+        cnt++;
+      }
+      return cnt;
     }
 };
