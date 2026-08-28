@@ -386,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
 | [3620-network-recovery-pathways](https://github.com/leherjoshi/leetcode/tree/master/3620-network-recovery-pathways) |
 | [3668-restore-finishing-order](https://github.com/leherjoshi/leetcode/tree/master/3668-restore-finishing-order) |
+| [3693-climbing-stairs-ii](https://github.com/leherjoshi/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/leherjoshi/leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/leherjoshi/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/leherjoshi/leetcode/tree/master/3731-find-missing-elements) |
@@ -503,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
 | [3620-network-recovery-pathways](https://github.com/leherjoshi/leetcode/tree/master/3620-network-recovery-pathways) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/leherjoshi/leetcode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
+| [3693-climbing-stairs-ii](https://github.com/leherjoshi/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3836-maximum-score-using-exactly-k-pairs](https://github.com/leherjoshi/leetcode/tree/master/3836-maximum-score-using-exactly-k-pairs) |
 | [3976-maximum-subarray-sum-after-multiplier](https://github.com/leherjoshi/leetcode/tree/master/3976-maximum-subarray-sum-after-multiplier) |
 ## Stack
