@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/leherjoshi/leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3598-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/leherjoshi/leetcode/tree/master/3598-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/leherjoshi/leetcode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
+| [3694-distinct-points-reachable-after-substring-removal](https://github.com/leherjoshi/leetcode/tree/master/3694-distinct-points-reachable-after-substring-removal) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/leherjoshi/leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/leherjoshi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/leherjoshi/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/leherjoshi/leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/leherjoshi/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3668-restore-finishing-order](https://github.com/leherjoshi/leetcode/tree/master/3668-restore-finishing-order) |
+| [3694-distinct-points-reachable-after-substring-removal](https://github.com/leherjoshi/leetcode/tree/master/3694-distinct-points-reachable-after-substring-removal) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/leherjoshi/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/leherjoshi/leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/leherjoshi/leetcode/tree/master/3731-find-missing-elements) |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/leherjoshi/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/leherjoshi/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3589-count-prime-gap-balanced-subarrays](https://github.com/leherjoshi/leetcode/tree/master/3589-count-prime-gap-balanced-subarrays) |
+| [3694-distinct-points-reachable-after-substring-removal](https://github.com/leherjoshi/leetcode/tree/master/3694-distinct-points-reachable-after-substring-removal) |
 ## Array
 |  |
 | ------- |
@@ -917,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/leherjoshi/leetcode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
+| [3694-distinct-points-reachable-after-substring-removal](https://github.com/leherjoshi/leetcode/tree/master/3694-distinct-points-reachable-after-substring-removal) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/leherjoshi/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Merge Sort
 |  |
