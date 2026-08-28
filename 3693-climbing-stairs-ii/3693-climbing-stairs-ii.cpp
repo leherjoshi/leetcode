@@ -1,35 +1,29 @@
 class Solution {
 public:
 
-int Solve(int index, vector<int>& cost, int n){
-
-    if(index==n)
-        return 0;
-
-    if(index>n)
-        return INT_MAX;
-
-    int ans=INT_MAX;
-
-    if(index+1<=n)
-        ans=min(ans,
-        Solve(index+1,cost,n)+cost[index+1]+1);
-
-    if(index+2<=n)
-        ans=min(ans,
-        Solve(index+2,cost,n)+cost[index+2]+4);
-
-    if(index+3<=n)
-        ans=min(ans,
-        Solve(index+3,cost,n)+cost[index+3]+9);
-
-    return ans;
-}
-
 int climbStairs(int n, vector<int>& costs){
 
     costs.insert(costs.begin(),0);
 
-    return Solve(0,costs,n);
+    vector<int>dp(costs.size()+3,INT_MAX);
+
+    dp[n]=0;
+
+    for(int i=n-1;i>=0;i--){
+
+        if(i+1<=n)
+            dp[i]=min(dp[i],
+            dp[i+1]+costs[i+1]+1);
+
+        if(i+2<=n)
+            dp[i]=min(dp[i],
+            dp[i+2]+costs[i+2]+4);
+
+        if(i+3<=n)
+            dp[i]=min(dp[i],
+            dp[i+3]+costs[i+3]+9);
+    }
+
+    return dp[0];
 }
 };
