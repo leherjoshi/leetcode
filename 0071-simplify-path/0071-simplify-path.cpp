@@ -1,29 +1,28 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        vector<string> st;
-        string cur = "";
-        
-        // last la / add pannina split easy
-        path += "/";
+        vector<string>st;
+        string cur="";
 
-        for (char c : path) {
-            if (c == '/') {
-                if (cur == "..") {
-                    if (!st.empty()) st.pop_back();
-                } else if (cur != "" && cur != ".") {
+        path+="/";
+
+        for(char c:path){
+            if(c=='/'){
+                if(cur==".."){
+                    if(!st.empty())st.pop_back();
+                }else if(cur!=""&&cur!="."){
                     st.push_back(cur);
                 }
-                cur = "";
-            } else {
-                cur += c;
+                cur="";
+            }else {
+                cur+=c;
             }
         }
-
-        string ans = "";
-        for (string &s : st) {
-            ans += "/" + s;
+        string ans="";
+        for(string &s:st){
+            ans+="/"+s;
         }
-        return ans.empty() ? "/" : ans;
+        return ans.empty()?"/":ans;
+
     }
 };
