@@ -1,26 +1,29 @@
 class Solution {
 public:
     string simplifyPath(string path) {
-        vector<string>comp;
-        vector<string>st;
-        stringstream ss(path);
-        string cp;
-        while(getline(ss,cp,'/')){
-            if(cp==""||cp=="."){
-                continue;
-            }
-            if(cp==".."){
-                if(!st.empty()){
-                    st.pop_back();
+        vector<string> st;
+        string cur = "";
+        
+        // last la / add pannina split easy
+        path += "/";
+
+        for (char c : path) {
+            if (c == '/') {
+                if (cur == "..") {
+                    if (!st.empty()) st.pop_back();
+                } else if (cur != "" && cur != ".") {
+                    st.push_back(cur);
                 }
-            }else{
-                st.push_back(cp);
+                cur = "";
+            } else {
+                cur += c;
             }
         }
-        stringstream simp;
-        for(const string & s :st){
-            simp<<"/"<<s;
+
+        string ans = "";
+        for (string &s : st) {
+            ans += "/" + s;
         }
-        return simp.str().empty()?"/":simp.str();
+        return ans.empty() ? "/" : ans;
     }
 };
