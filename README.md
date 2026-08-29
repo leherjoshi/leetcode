@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/leherjoshi/leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0038-count-and-say](https://github.com/leherjoshi/leetcode/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
+| [0044-wildcard-matching](https://github.com/leherjoshi/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/leherjoshi/leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/leherjoshi/leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/leherjoshi/leetcode/tree/master/0072-edit-distance) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/leherjoshi/leetcode/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/leherjoshi/leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/leherjoshi/leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/leherjoshi/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
@@ -544,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/leherjoshi/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/leherjoshi/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/leherjoshi/leetcode/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0394-decode-string](https://github.com/leherjoshi/leetcode/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
@@ -879,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/leherjoshi/leetcode/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/leherjoshi/leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/leherjoshi/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/leherjoshi/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/leherjoshi/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
