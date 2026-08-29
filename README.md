@@ -451,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/leherjoshi/leetcode/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/leherjoshi/leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2396-strictly-palindromic-number](https://github.com/leherjoshi/leetcode/tree/master/2396-strictly-palindromic-number) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -860,6 +861,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0705-design-hashset](https://github.com/leherjoshi/leetcode/tree/master/0705-design-hashset) |
 | [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [1019-next-greater-node-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/1019-next-greater-node-in-linked-list) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/leherjoshi/leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/leherjoshi/leetcode/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
