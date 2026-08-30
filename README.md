@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/leherjoshi/leetcode/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/leherjoshi/leetcode/tree/master/0089-gray-code) |
 | [0172-factorial-trailing-zeroes](https://github.com/leherjoshi/leetcode/tree/master/0172-factorial-trailing-zeroes) |
 | [0189-rotate-array](https://github.com/leherjoshi/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/leherjoshi/leetcode/tree/master/0202-happy-number) |
@@ -416,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/leherjoshi/leetcode/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/leherjoshi/leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/leherjoshi/leetcode/tree/master/0090-subsets-ii) |
 | [0190-reverse-bits](https://github.com/leherjoshi/leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/leherjoshi/leetcode/tree/master/0191-number-of-1-bits) |
@@ -824,6 +826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/leherjoshi/leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/leherjoshi/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/leherjoshi/leetcode/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/leherjoshi/leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/leherjoshi/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/leherjoshi/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
