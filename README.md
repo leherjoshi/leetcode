@@ -487,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/leherjoshi/leetcode/tree/master/0072-edit-distance) |
 | [0087-scramble-string](https://github.com/leherjoshi/leetcode/tree/master/0087-scramble-string) |
 | [0091-decode-ways](https://github.com/leherjoshi/leetcode/tree/master/0091-decode-ways) |
+| [0095-unique-binary-search-trees-ii](https://github.com/leherjoshi/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/leherjoshi/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/leherjoshi/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/leherjoshi/leetcode/tree/master/0120-triangle) |
@@ -748,6 +749,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/leherjoshi/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/leherjoshi/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/leherjoshi/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -801,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/leherjoshi/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/leherjoshi/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/leherjoshi/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -835,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0089-gray-code](https://github.com/leherjoshi/leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/leherjoshi/leetcode/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/leherjoshi/leetcode/tree/master/0093-restore-ip-addresses) |
+| [0095-unique-binary-search-trees-ii](https://github.com/leherjoshi/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0131-palindrome-partitioning](https://github.com/leherjoshi/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/leherjoshi/leetcode/tree/master/0282-expression-add-operators) |
@@ -842,6 +846,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/leherjoshi/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/leherjoshi/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
