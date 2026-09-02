@@ -6,9 +6,10 @@ public:
 
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] == 0)
-                mx=i+1;
+               mx=0;
             else {
-                cnt=max(cnt,i-mx+1);
+                mx++;
+                cnt=max(cnt,mx);
             }
         }
 
