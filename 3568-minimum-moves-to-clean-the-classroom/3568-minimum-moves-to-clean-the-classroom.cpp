@@ -1,56 +1,106 @@
 class Solution {
-    static constexpr int dx[4] = {0, 1, 0, -1};
-    static constexpr int dy[4] = {1, 0, -1, 0};
-
 public:
     int minMoves(vector<string>& classroom, int energy) {
         int m = classroom.size();
         int n = classroom[0].size();
-        vector id(m, vector<int>(n));
-        int sx, sy, cnt = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (classroom[i][j] == 'S') {
-                    sx = i;
-                    sy = j;
-                } else if (classroom[i][j] == 'L') {
-                    id[i][j] = 1 << cnt++;
+
+        int sr = -1, sc = -1;
+        int cnt = 0;
+
+        // Give each litter an ID for bitmask
+        vector<vector<int>> id(m, vector<int>(n, -1));
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(classroom[i][j] == 'S'){
+                    sr = i;
+                    sc = j;
+                }
+                if(classroom[i][j] == 'L'){
+                    id[i][j] = cnt++;
                 }
             }
         }
 
-        vector bestEnergy(m, vector(n, vector<int>(1 << cnt, -1)));
-        bestEnergy[sx][sy][0] = energy;
-        struct Info {
-            int x, y, mask, e, steps;
+        int masks = 1 << cnt;
+        int fullMask = masks - 1;
+
+        // best[r][c][mask] = max energy reached at this state
+        vector<vector<vector<int>>> best(
+            m,
+            vector<vector<int>>(
+                n,
+                vector<int>(masks, -1)
+            )
+        );
+
+        struct State {
+            int r, c;
+            int mask;
+            int en;
+            int dist;
         };
-        queue<Info> q;
-        q.push({sx, sy, 0, energy, 0});
-        while (!q.empty()) {
-            Info t = q.front();
+
+        queue<State> q;
+        q.push({sr, sc, 0, energy, 0});
+        best[sr][sc][0] = energy;
+
+        int dr[] = {-1, 1, 0, 0};
+        int dc[] = {0, 0, -1, 1};
+
+        while(!q.empty()){
+            State cur = q.front();
             q.pop();
-            if (t.mask == (1 << cnt) - 1) {
-                return t.steps;
+
+            int r = cur.r;
+            int c = cur.c;
+            int mask = cur.mask;
+            int en = cur.en;
+            int dist = cur.dist;
+
+            // All litter collected
+            if(mask == fullMask){
+                return dist;
             }
-            if (t.e == 0) {
+            // No energy, cannot move
+            if(en == 0){
                 continue;
             }
-            for (int i = 0; i < 4; i++) {
-                int nx = t.x + dx[i];
-                int ny = t.y + dy[i];
 
-                if (nx < 0 || nx >= m || ny < 0 || ny >= n ||
-                    classroom[nx][ny] == 'X') {
+            for(int d = 0; d < 4; d++){
+                int nr = r + dr[d];
+                int nc = c + dc[d];
+
+                // Outside grid
+                if(nr < 0 || nr >= m || nc < 0 || nc >= n){
                     continue;
                 }
 
-                int ne = classroom[nx][ny] == 'R' ? energy : t.e - 1;
-                int nmask = t.mask | id[nx][ny];
-
-                if (ne > bestEnergy[nx][ny][nmask]) {
-                    bestEnergy[nx][ny][nmask] = ne;
-                    q.push({nx, ny, nmask, ne, t.steps + 1});
+                // Obstacle
+                if(classroom[nr][nc] == 'X'){
+                    continue;
                 }
+
+                int newEn = en - 1;
+                int newMask = mask;
+
+                // Collect litter
+                if(classroom[nr][nc] == 'L'){
+                    newMask |= (1 << id[nr][nc]);
+                }
+
+                // Recharge
+                if(classroom[nr][nc] == 'R'){
+                    newEn = energy;
+                }
+
+                // Already reached with more energy
+                if(best[nr][nc][newMask] >= newEn){
+                    continue;
+                }
+
+                best[nr][nc][newMask] = newEn;
+                q.push({nr, nc, newMask, newEn, dist + 1});
             }
         }
         return -1;
