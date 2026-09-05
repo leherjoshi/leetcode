@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/leherjoshi/leetcode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/leherjoshi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/leherjoshi/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0895-maximum-frequency-stack](https://github.com/leherjoshi/leetcode/tree/master/0895-maximum-frequency-stack) |
 | [0904-fruit-into-baskets](https://github.com/leherjoshi/leetcode/tree/master/0904-fruit-into-baskets) |
 | [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
+| [1248-count-number-of-nice-subarrays](https://github.com/leherjoshi/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/leherjoshi/leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/leherjoshi/leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/leherjoshi/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/leherjoshi/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/leherjoshi/leetcode/tree/master/0904-fruit-into-baskets) |
+| [1248-count-number-of-nice-subarrays](https://github.com/leherjoshi/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/leherjoshi/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/leherjoshi/leetcode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/leherjoshi/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
+| [1248-count-number-of-nice-subarrays](https://github.com/leherjoshi/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1260-shift-2d-grid](https://github.com/leherjoshi/leetcode/tree/master/1260-shift-2d-grid) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/leherjoshi/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
@@ -994,6 +998,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/leherjoshi/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/leherjoshi/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/leherjoshi/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
