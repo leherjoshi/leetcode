@@ -1173,6 +1173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/leherjoshi/leetcode/tree/master/0176-second-highest-salary) |
+| [0184-department-highest-salary](https://github.com/leherjoshi/leetcode/tree/master/0184-department-highest-salary) |
 | [0197-rising-temperature](https://github.com/leherjoshi/leetcode/tree/master/0197-rising-temperature) |
 | [0550-game-play-analysis-iv](https://github.com/leherjoshi/leetcode/tree/master/0550-game-play-analysis-iv) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/leherjoshi/leetcode/tree/master/0570-managers-with-at-least-5-direct-reports) |
