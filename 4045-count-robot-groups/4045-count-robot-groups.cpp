@@ -1,20 +1,22 @@
 class Solution {
 public:
     int countGroups(vector<int>& position, vector<int>& speed, int distance) {
-        int n=speed.size();
-        int ans=0;
-        int s1=INT_MAX;
-        int p1=INT_MAX;
+        int n = speed.size();
+        int res = 0;
 
-        for(int i=n-1;i>=0;i--){
-            
-            if(p1-distance>position[i] && speed[i]<=s1){
-                ans+=1;
-                s1=speed[i];
+        int p1 = position[n - 1];
+        int s1 = speed[n - 1];
+
+        for (int i = n - 2; i >= 0; i--) {
+
+            if (position[i] + distance < p1 && speed[i] <= s1) {
+                res++;
+                s1 = speed[i];
             }
-            p1=position[i];
-        }
-        return ans;
 
+            p1 = position[i];
+        }
+
+        return res + 1;
     }
 };
