@@ -1,41 +1,30 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
+    struct Compare {
+        bool operator()(ListNode* a, ListNode* b) {
+            return a->val > b->val; // min-heap by value
+        }
+    };
+
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<pair<int,ListNode*>,
-            vector<pair<int,ListNode*>>,
-            greater<pair<int,ListNode*>>>mpp;
+        priority_queue<ListNode*, vector<ListNode*>, Compare> pq;
 
-        for(auto list:lists){
-            if(list){
-                mpp.push({list->val,list});
-            }
+        // push all non-null heads
+        for (ListNode* node : lists) {
+            if (node) pq.push(node);
         }
-        ListNode*dummy=new ListNode(0);
-        ListNode*tail=dummy;
 
-        while(!mpp.empty()){
-            auto [val,node]=mpp.top();
-            mpp.pop();
+        ListNode* dummy = new ListNode();
+        ListNode* curr = dummy;
 
-            tail->next=node;
-            tail=tail->next;
-
-            if(node->next){
-                mpp.push({node->next->val,node->next});
-            }
+        while (!pq.empty()) {
+            ListNode* temp = pq.top();
+            pq.pop();
+            curr->next = temp;
+            curr = curr->next;
+            if (temp->next) pq.push(temp->next);
         }
+
         return dummy->next;
-
-
     }
 };
