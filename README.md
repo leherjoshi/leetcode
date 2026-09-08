@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 | [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/leherjoshi/leetcode/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/leherjoshi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -392,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/leherjoshi/leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1824-minimum-sideway-jumps](https://github.com/leherjoshi/leetcode/tree/master/1824-minimum-sideway-jumps) |
 | [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
@@ -553,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/leherjoshi/leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1510-stone-game-iv](https://github.com/leherjoshi/leetcode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 | [1824-minimum-sideway-jumps](https://github.com/leherjoshi/leetcode/tree/master/1824-minimum-sideway-jumps) |
 | [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2054-two-best-non-overlapping-events](https://github.com/leherjoshi/leetcode/tree/master/2054-two-best-non-overlapping-events) |
@@ -944,6 +947,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/leherjoshi/leetcode/tree/master/0204-count-primes) |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/leherjoshi/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2523-closest-prime-numbers-in-range](https://github.com/leherjoshi/leetcode/tree/master/2523-closest-prime-numbers-in-range) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/leherjoshi/leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
@@ -1049,6 +1053,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 | [3312-sorted-gcd-pair-queries](https://github.com/leherjoshi/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/leherjoshi/leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Topological Sort
@@ -1301,4 +1306,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/leherjoshi/leetcode/tree/master/0229-majority-element-ii) |
+## Prime Factorization
+|  |
+| ------- |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
+## Fermat's Little Theorem
+|  |
+| ------- |
+| [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 <!---LeetCode Topics End-->
