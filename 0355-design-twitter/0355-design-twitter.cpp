@@ -1,6 +1,6 @@
 class Twitter {
     int timestamp = 0;
-    // userId -> list of (time, tweetId) in the order posted (so back = most recent)
+    // userId -> list of (time, tweetId), in order posted
     unordered_map<int, vector<pair<int,int>>> tweets;
     // followerId -> set of followeeId
     unordered_map<int, unordered_set<int>> following;
@@ -13,32 +13,27 @@ public:
     }
 
     vector<int> getNewsFeed(int userId) {
-        // max-heap of (time, tweetId, userId, indexIntoTheirVector)
-        priority_queue<tuple<int,int,int,int>> heap;
+        vector<pair<int,int>> candidates; // (time, tweetId)
 
-        // seed with the user's own last tweet
-        auto seed = [&](int uid) {
-            auto& v = tweets[uid];
-            if (!v.empty()) {
-                int idx = v.size() - 1;
-                heap.push({v[idx].first, v[idx].second, uid, idx});
-            }
-        };
+        // add my own last 10 tweets
+        auto& mine = tweets[userId];
+        for (int i = mine.size() - 1; i >= 0 && i >= (int)mine.size() - 10; i--)
+            candidates.push_back(mine[i]);
 
-        seed(userId);
-        for (int followeeId : following[userId]) seed(followeeId);
+        // add last 10 tweets of everyone I follow
+        for (int followeeId : following[userId]) {
+            auto& theirs = tweets[followeeId];
+            for (int i = theirs.size() - 1; i >= 0 && i >= (int)theirs.size() - 10; i--)
+                candidates.push_back(theirs[i]);
+        }
+
+        // sort by time, most recent first
+        sort(candidates.begin(), candidates.end(), greater<>());
 
         vector<int> result;
-        while (!heap.empty() && result.size() < 10) {
-            auto [time, tid, uid, idx] = heap.top();
-            heap.pop();
-            result.push_back(tid);
+        for (int i = 0; i < (int)candidates.size() && i < 10; i++)
+            result.push_back(candidates[i].second);
 
-            if (idx > 0) {
-                idx--;
-                heap.push({tweets[uid][idx].first, tweets[uid][idx].second, uid, idx});
-            }
-        }
         return result;
     }
 
