@@ -1,48 +1,88 @@
 class Twitter {
-    int timestamp = 0;
-    // userId -> list of (time, tweetId), in order posted
-    unordered_map<int, vector<pair<int,int>>> tweets;
-    // followerId -> set of followeeId
-    unordered_map<int, unordered_set<int>> following;
-
 public:
-    Twitter() {}
 
+    int timestamp=0;
+    unordered_map<int ,vector<pair<int,int>>>tweets;
+    unordered_map<int,unordered_set<int>>following;
+
+    Twitter() {
+        
+    }
+    
     void postTweet(int userId, int tweetId) {
-        tweets[userId].push_back({timestamp++, tweetId});
+        tweets[userId].push_back({timestamp++,tweetId});
+    }
+    
+    vector<int> getNewsFeed(int userId) {
+    priority_queue<tuple<int,int,int,int>> pq;
+
+    // Add user's latest tweet
+    if (!tweets[userId].empty()) {
+        int i = tweets[userId].size() - 1;
+        pq.push({tweets[userId][i].first,
+                 tweets[userId][i].second,
+                 userId,
+                 i});
     }
 
-    vector<int> getNewsFeed(int userId) {
-        vector<pair<int,int>> candidates; // (time, tweetId)
+    // Add latest tweet of every followed user
+    for (int id : following[userId]) {
+        if (!tweets[id].empty()) {
+            int i = tweets[id].size() - 1;
 
-        // add my own last 10 tweets
-        auto& mine = tweets[userId];
-        for (int i = mine.size() - 1; i >= 0 && i >= (int)mine.size() - 10; i--)
-            candidates.push_back(mine[i]);
+            pq.push({tweets[id][i].first,
+                     tweets[id][i].second,
+                     id,
+                     i});
+        }
+    }
 
-        // add last 10 tweets of everyone I follow
-        for (int followeeId : following[userId]) {
-            auto& theirs = tweets[followeeId];
-            for (int i = theirs.size() - 1; i >= 0 && i >= (int)theirs.size() - 10; i--)
-                candidates.push_back(theirs[i]);
+    vector<int> ans;
+
+    while (!pq.empty() && ans.size() < 10) {
+        auto top = pq.top();
+        pq.pop();
+
+        int time = get<0>(top);
+        int tweetId = get<1>(top);
+        int user = get<2>(top);
+        int index = get<3>(top);
+
+        ans.push_back(tweetId);
+
+        // Get this user's previous tweet
+        if (index > 0) {
+            index--;
+
+            pq.push({
+                tweets[user][index].first,
+                tweets[user][index].second,
+                user,
+                index
+            });
+        }
+    }
+
+    return ans;
+}
+    
+    void follow(int followerId, int followeeId) {
+        if(followerId!=followeeId){
+            following[followerId].insert(followeeId);
         }
 
-        // sort by time, most recent first
-        sort(candidates.begin(), candidates.end(), greater<>());
-
-        vector<int> result;
-        for (int i = 0; i < (int)candidates.size() && i < 10; i++)
-            result.push_back(candidates[i].second);
-
-        return result;
     }
-
-    void follow(int followerId, int followeeId) {
-        if (followerId != followeeId)
-            following[followerId].insert(followeeId);
-    }
-
+    
     void unfollow(int followerId, int followeeId) {
         following[followerId].erase(followeeId);
     }
 };
+
+/**
+ * Your Twitter object will be instantiated and called as such:
+ * Twitter* obj = new Twitter();
+ * obj->postTweet(userId,tweetId);
+ * vector<int> param_2 = obj->getNewsFeed(userId);
+ * obj->follow(followerId,followeeId);
+ * obj->unfollow(followerId,followeeId);
+ */
