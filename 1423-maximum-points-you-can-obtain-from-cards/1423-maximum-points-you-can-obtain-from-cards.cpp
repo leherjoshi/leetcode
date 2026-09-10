@@ -1,24 +1,22 @@
 class Solution {
 public:
     int maxScore(vector<int>& card, int k) {
-        int res=0;
         int n=card.size();
-        for(int i=0;i<n;i++){
-            res+=card[i];
-        }
-
-        int windowsize=n-k;
+        int total=accumulate(card.begin(),card.end(),0);
         int windowsum=0;
-        for(int i=0;i<windowsize;i++){
+        
+        k=n-k;
+        
+        for(int i=0;i<k;i++){
             windowsum+=card[i];
         }
         int minwindowsum=windowsum;
-        for(int i=windowsize;i<n;i++){
+        
+        for(int i=k;i<n;i++){
             windowsum+=card[i];
-            windowsum-=card[i-windowsize];
-
-            minwindowsum=min(minwindowsum,windowsum);
+            windowsum-=card[i-k];
+            minwindowsum=min(windowsum,minwindowsum);
         }
-        return res-minwindowsum;
+        return total-minwindowsum;
     }
 };
