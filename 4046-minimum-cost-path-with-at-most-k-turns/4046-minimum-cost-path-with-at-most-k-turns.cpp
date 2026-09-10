@@ -1,61 +1,51 @@
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid, int k) {
-        int m = grid.size();
-        int n = grid[0].size();
-
-        if (m == 1 && n == 1) return grid[0][0];
-
-        int dr[4] = {-1, 1, 0, 0};
-        int dc[4] = {0, 0, -1, 1};
-
-        const int INF = 1e9;
-
-        vector<vector<vector<vector<int>>>> dist(
-            m, vector<vector<vector<int>>>(
-                n, vector<vector<int>>(4, vector<int>(k + 1, INF))
-            )
-        );
-
-        
-        using State = tuple<int, int, int, int, int>;
-        priority_queue<State, vector<State>, greater<State>> pq;
-
-        for (int d = 0; d < 4; ++d) {
-            int nr = dr[d];
-            int nc = dc[d];
-            if (nr >= 0 && nr < m && nc >= 0 && nc < n) {
-                int cost = grid[0][0] + grid[nr][nc];
-                dist[nr][nc][d][0] = cost;
-                pq.push({cost, nr, nc, d, 0});
-            }
-        }
-
-        while (!pq.empty()) {
-            auto [cost, r, c, d, t] = pq.top();
+        int m=grid.size();
+        int n=grid[0].size();
+        vector<vector<vector<vector<int>>>> dist(m, 
+    vector<vector<vector<int>>>(n, 
+        vector<vector<int>>(k + 1, 
+            vector<int>(5, 1e9))));
+        priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>>pq;
+        pq.push({0,grid[0][0],1,0,0});
+        pq.push({0,grid[0][0],2,0,0});
+        int dx[]={-1,0,1,0};
+        int dy[]={0,1,0,-1};
+        dist[0][0][0][1]=grid[0][0];
+        dist[0][0][0][2]=grid[0][0];
+        while(!pq.empty()){
+            int turns=pq.top()[0];
+            int cost=pq.top()[1];
+            int dir=pq.top()[2];
+            int i=pq.top()[3];
+            int j=pq.top()[4];
+            
             pq.pop();
-
-            if (cost > dist[r][c][d][t]) continue;
-
-            if (r == m - 1 && c == n - 1) return cost;
-
-            for (int nd = 0; nd < 4; ++nd) {
-                int nr = r + dr[nd];
-                int nc = c + dc[nd];
-
-                if (nr < 0 || nr >= m || nc < 0 || nc >= n) continue;
-
-                int nt = t + (nd != d ? 1 : 0);
-                if (nt > k) continue;
-
-                int ncost = cost + grid[nr][nc];
-                if (ncost < dist[nr][nc][nd][nt]) {
-                    dist[nr][nc][nd][nt] = ncost;
-                    pq.push({ncost, nr, nc, nd, nt});
+            if(dist[i][j][turns][dir]<cost)
+            continue;
+            for(int y=0;y<4;y++){
+                int nr=i+dx[y];
+                int nc=j+dy[y];
+                if(nr>=0 && nr<m && nc>=0 && nc<n){
+                    int nturns=turns;
+                    if(y!=dir){
+                        nturns=turns+1;
+                    }
+                    if(nturns<=k){
+                    if(dist[nr][nc][nturns][y]>cost+grid[nr][nc]){
+                        dist[nr][nc][nturns][y]=cost+grid[nr][nc];
+                        pq.push({nturns,dist[nr][nc][nturns][y],y,nr,nc});
+                    }
+                    }
                 }
             }
         }
-
-        return -1;
+        int ans=1e9;
+        for(int i=0;i<=k;i++){
+            for(int j=0;j<=4;j++)
+            ans=min(ans,dist[m-1][n-1][i][j]);
+        }
+        return ans==1e9?-1:ans;
     }
 };
