@@ -358,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/leherjoshi/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/leherjoshi/leetcode/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/leherjoshi/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0630-course-schedule-iii](https://github.com/leherjoshi/leetcode/tree/master/0630-course-schedule-iii) |
 | [0636-exclusive-time-of-functions](https://github.com/leherjoshi/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/leherjoshi/leetcode/tree/master/0704-binary-search) |
@@ -678,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/leherjoshi/leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/leherjoshi/leetcode/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/leherjoshi/leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0630-course-schedule-iii](https://github.com/leherjoshi/leetcode/tree/master/0630-course-schedule-iii) |
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/leherjoshi/leetcode/tree/master/0846-hand-of-straights) |
@@ -795,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/leherjoshi/leetcode/tree/master/0355-design-twitter) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/leherjoshi/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0621-task-scheduler](https://github.com/leherjoshi/leetcode/tree/master/0621-task-scheduler) |
+| [0630-course-schedule-iii](https://github.com/leherjoshi/leetcode/tree/master/0630-course-schedule-iii) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
@@ -995,6 +998,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/leherjoshi/leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/leherjoshi/leetcode/tree/master/0621-task-scheduler) |
+| [0630-course-schedule-iii](https://github.com/leherjoshi/leetcode/tree/master/0630-course-schedule-iii) |
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
 | [0846-hand-of-straights](https://github.com/leherjoshi/leetcode/tree/master/0846-hand-of-straights) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/leherjoshi/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
