@@ -551,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/leherjoshi/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/leherjoshi/leetcode/tree/master/0542-01-matrix) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/leherjoshi/leetcode/tree/master/0877-stone-game) |
 | [0935-knight-dialer](https://github.com/leherjoshi/leetcode/tree/master/0935-knight-dialer) |
 | [1140-stone-game-ii](https://github.com/leherjoshi/leetcode/tree/master/1140-stone-game-ii) |
@@ -760,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/leherjoshi/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [0994-rotting-oranges](https://github.com/leherjoshi/leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
@@ -805,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/leherjoshi/leetcode/tree/master/0630-course-schedule-iii) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0767-reorganize-string](https://github.com/leherjoshi/leetcode/tree/master/0767-reorganize-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0912-sort-an-array](https://github.com/leherjoshi/leetcode/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/leherjoshi/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -857,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/leherjoshi/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
@@ -935,6 +939,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/leherjoshi/leetcode/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/leherjoshi/leetcode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/leherjoshi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -950,6 +955,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/leherjoshi/leetcode/tree/master/0399-evaluate-division) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/leherjoshi/leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/leherjoshi/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Linked List
