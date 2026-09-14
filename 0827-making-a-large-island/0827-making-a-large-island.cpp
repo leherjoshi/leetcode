@@ -1,8 +1,15 @@
-class Solution {
-    
+class DSU {
 public:
-
     vector<int> parent, size;
+
+    DSU(int n) {
+        parent.resize(n);
+        size.assign(n, 1);
+
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+        }
+    }
 
     int find(int x) {
         if (parent[x] == x)
@@ -11,105 +18,105 @@ public:
         return parent[x] = find(parent[x]);
     }
 
-    void unite(int a, int b) {
-        a = find(a);
-        b = find(b);
+    void unite(int x, int y) {
+        int pu = find(x);
+        int pv = find(y);
 
-        if (a == b)
+        if (pu == pv)
             return;
 
-        parent[b] = a;
-        size[a] += size[b];
+        if (size[pu] < size[pv]) {
+            parent[pu] = pv;
+            size[pv] += size[pu];
+        }
+        else {
+            parent[pv] = pu;
+            size[pu] += size[pv];
+        }
     }
+};
 
+class Solution {
+public:
     int largestIsland(vector<vector<int>>& grid) {
 
         int n = grid.size();
 
-        parent.resize(n * n);
-        size.assign(n * n, 1);
-
-        for (int i = 0; i < n * n; i++) {
-            parent[i] = i;
-        }
+        DSU ds(n * n);
 
         int dx[] = {1, -1, 0, 0};
         int dy[] = {0, 0, 1, -1};
 
-        // Step 1: Union all neighbouring 1s
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        bool hasZero = false;
 
-                if (grid[i][j] == 1) {
-
-                    int node = i * n + j;
-
-                    for (int d = 0; d < 4; d++) {
-
-                        int nr = i + dx[d];
-                        int nc = j + dy[d];
-
-                        if (nr >= 0 && nc >= 0 &&
-                            nr < n && nc < n &&
-                            grid[nr][nc] == 1) {
-
-                            int next = nr * n + nc;
-
-                            unite(node, next);
-                        }
-                    }
-                }
-            }
-        }
-
-        // Find current largest island
-        int ans = 0;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-
-                if (grid[i][j] == 1) {
-                    ans = max(ans, size[find(i * n + j)]);
-                }
-            }
-        }
-
-        // Step 2: Try converting every 0 into 1
+        // Step 1: Union adjacent 1s
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
 
                 if (grid[i][j] == 0) {
+                    hasZero = true;
+                    continue;
+                }
 
-                    int cnt = 1;
+                int node = i * n + j;
 
-                    // Store roots so same island isn't counted twice
-                    vector<int> roots;
+                for (int d = 0; d < 4; d++) {
 
-                    for (int d = 0; d < 4; d++) {
+                    int nr = i + dx[d];
+                    int nc = j + dy[d];
 
-                        int nr = i + dx[d];
-                        int nc = j + dy[d];
+                    if (nr >= 0 && nc >= 0 &&
+                        nr < n && nc < n &&
+                        grid[nr][nc] == 1) {
 
-                        if (nr >= 0 && nc >= 0 &&
-                            nr < n && nc < n &&
-                            grid[nr][nc] == 1) {
+                        int adjNode = nr * n + nc;
 
-                            int root = find(nr * n + nc);
-
-                           
-
-                        if (std::find(roots.begin(), roots.end(), root) == roots.end()) {
-                            roots.push_back(root);
-                            cnt += size[root];
-                        }
-                        }
+                        ds.unite(node, adjNode);
                     }
-
-                    ans = max(ans, cnt);
                 }
             }
         }
 
-        return ans == 0 ? 1 : ans;
+        // All 1s
+        if (!hasZero)
+            return n * n;
+
+        int ans = 1;
+
+        // Step 2: Flip every 0
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (grid[i][j] == 1)
+                    continue;
+
+                set<int> components;
+
+                for (int d = 0; d < 4; d++) {
+
+                    int nr = i + dx[d];
+                    int nc = j + dy[d];
+
+                    if (nr >= 0 && nc >= 0 &&
+                        nr < n && nc < n &&
+                        grid[nr][nc] == 1) {
+
+                        components.insert(ds.find(nr * n + nc));
+                    }
+                }
+
+                int total = 1;
+
+                for (auto root : components) {
+                    total += ds.size[root];
+                }
+
+                ans = max(ans, total);
+            }
+        }
+
+        // All 0s is automatically handled:
+        // ans remains 1
+        return ans;
     }
 };
