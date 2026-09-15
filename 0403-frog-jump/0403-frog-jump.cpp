@@ -1,34 +1,52 @@
 class Solution {
 public:
-    bool solve(vector<int>&stones,int i,int last,vector<vector<int>>&dp){
-        if(i==stones.size()-1)return true;
+    bool solve(vector<int>& stones, int i, int last, vector<vector<int>>& dp) {
+        if(i == stones.size() - 1)
+            return true;
 
-        if(dp[i][last]!=-1)return dp[i][last];
+        if(dp[i][last] != -1)
+            return dp[i][last];
 
-        for(int d=-1;d<2;d++){
-            int jump=last+d;
+        for(int d = -1; d < 2; d++) {
+            int jump = last + d;
 
-            if(jump<=0)continue;
+            if(jump <= 0)
+                continue;
 
-            int nextpos=stones[i]+jump;
+            int nextpos = stones[i] + jump;
 
-            for(int j=i+1;j<stones.size();j++){
-                if(stones[j]==nextpos){
-                    if(solve(stones,j,jump,dp)){
-                        return dp[i][last]=true;
-                    }
+            int low = i + 1;
+            int high = stones.size() - 1;
+
+            while(low <= high) {
+                int mid = (low + high) / 2;
+
+                if(stones[mid] == nextpos) {
+                    if(solve(stones, mid, jump, dp))
+                        return dp[i][last] = true;
+
+                    break;
                 }
-                if(stones[j]>nextpos)break;
+                else if(stones[mid] < nextpos) {
+                    low = mid + 1;
+                }
+                else {
+                    high = mid - 1;
+                }
             }
         }
-        return dp[i][last]=false;
+
+        return dp[i][last] = false;
     }
+
     bool canCross(vector<int>& stones) {
-        int n=stones.size();
+        int n = stones.size();
 
-        if(stones[1]!=1)return false;
+        if(n < 2 || stones[1] != 1)
+            return false;
 
-        vector<vector<int>>dp(n,vector<int>(n+1,-1));
-        return solve(stones,0,0,dp);
+        vector<vector<int>> dp(n, vector<int>(n + 1, -1));
+
+        return solve(stones, 0, 0, dp);
     }
 };
