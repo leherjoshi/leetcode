@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/leherjoshi/leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/leherjoshi/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/leherjoshi/leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/leherjoshi/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/leherjoshi/leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1220-count-vowels-permutation](https://github.com/leherjoshi/leetcode/tree/master/1220-count-vowels-permutation) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/leherjoshi/leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/leherjoshi/leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1406-stone-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1406-stone-game-iii) |
 | [1463-cherry-pickup-ii](https://github.com/leherjoshi/leetcode/tree/master/1463-cherry-pickup-ii) |
