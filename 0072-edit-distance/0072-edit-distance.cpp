@@ -9,17 +9,23 @@ public:
             return word1.size() - i;
 
         if(dp[i][j] !=-1) return dp[i][j];
-
+        int take=INT_MAX;
+        int replace=INT_MAX;
+        int del=INT_MAX;
+        int insert=INT_MAX;
         if(word1[i] == word2[j])
-            return solve(i + 1, j + 1, word1, word2,dp);
+            take= solve(i + 1, j + 1, word1, word2,dp);
+        else{
 
-        int replace = 1 + solve(i + 1, j + 1, word1, word2,dp);
+        
+        replace = 1 + solve(i + 1, j + 1, word1, word2,dp);
 
-        int del = 1 + solve(i + 1, j, word1, word2,dp);
+         del = 1 + solve(i + 1, j, word1, word2,dp);
 
-        int insert = 1 + solve(i, j + 1, word1, word2,dp);
+        insert = 1 + solve(i, j + 1, word1, word2,dp);
+        }
 
-        return dp[i][j]=min({replace, del, insert});
+        return dp[i][j]=min({take,replace, del, insert});
     }
 
     int minDistance(string word1, string word2) {
