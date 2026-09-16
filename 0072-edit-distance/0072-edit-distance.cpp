@@ -15,7 +15,7 @@ public:
         int insert=INT_MAX;
         if(word1[i] == word2[j])
             take= solve(i + 1, j + 1, word1, word2,dp);
-        else{
+        
 
         
         replace = 1 + solve(i + 1, j + 1, word1, word2,dp);
@@ -23,7 +23,7 @@ public:
          del = 1 + solve(i + 1, j, word1, word2,dp);
 
         insert = 1 + solve(i, j + 1, word1, word2,dp);
-        }
+        
 
         return dp[i][j]=min({take,replace, del, insert});
     }
