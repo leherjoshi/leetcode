@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/leherjoshi/leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/leherjoshi/leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/leherjoshi/leetcode/tree/master/0043-multiply-strings) |
+| [0050-powx-n](https://github.com/leherjoshi/leetcode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/leherjoshi/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/leherjoshi/leetcode/tree/master/0070-climbing-stairs) |
@@ -631,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/leherjoshi/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/leherjoshi/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/leherjoshi/leetcode/tree/master/0044-wildcard-matching) |
+| [0050-powx-n](https://github.com/leherjoshi/leetcode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/leherjoshi/leetcode/tree/master/0060-permutation-sequence) |
 | [0394-decode-string](https://github.com/leherjoshi/leetcode/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/leherjoshi/leetcode/tree/master/0486-predict-the-winner) |
