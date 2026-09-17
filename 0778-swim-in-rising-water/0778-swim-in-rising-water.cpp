@@ -1,35 +1,56 @@
 class Solution {
 public:
-    vector<vector<int>> dirs = {{0,-1},{0,1},{-1,0},{1,0}};
-    
-    bool dfs(int x, int y, int t, vector<vector<int>>& grid, vector<vector<bool>>& vis) {
-        int n = grid.size();
-        vis[x][y] = true;
-        if (x == n - 1 && y == n - 1) return true;
-        
-        for (auto& d : dirs) {
-            int nx = x + d[0], ny = y + d[1];
-            if (nx >= 0 && nx < n && ny >= 0 && ny < n && !vis[nx][ny] && grid[nx][ny] <= t) {
-                if (dfs(nx, ny, t, grid, vis)) return true;
-            }
-        }
-        return false;
-    }
-    
     int swimInWater(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int low = 0, high = n * n - 1, ans = INT_MAX;
+        
+        priority_queue<
+            pair<int, pair<int,int>>,
+            vector<pair<int, pair<int,int>>>,
+            greater<pair<int, pair<int,int>>>
+        > pq;
 
-        while (low <= high) {
-            int mid = (low + high) / 2;
-            vector<vector<bool>> vis(n, vector<bool>(n, false));
-            if (grid[0][0] <= mid && dfs(0, 0, mid, grid, vis)) {
-                ans = mid;
-                high = mid - 1;
-            } else {
-                low = mid + 1;
+        int n = grid.size();
+
+        int dx[] = {-1, 1, 0, 0};
+        int dy[] = {0, 0, -1, 1};
+
+        vector<vector<int>> vis(n, vector<int>(n, 0));
+        vector<vector<int>> height(n, vector<int>(n, INT_MAX));
+
+        pq.push({grid[0][0], {0, 0}});
+        height[0][0] = grid[0][0];
+
+        while (!pq.empty()) {
+
+            auto [h, pos] = pq.top();
+            pq.pop();
+
+            int i = pos.first;
+            int j = pos.second;
+
+            if (vis[i][j])
+                continue;
+
+            vis[i][j] = 1;
+
+            for (int d = 0; d < 4; d++) {
+
+                int ni = i + dx[d];
+                int nj = j + dy[d];
+
+                if (ni < 0 || nj < 0 || ni >= n || nj >= n)
+                    continue;
+
+                // Time required to reach neighbour
+                int newHeight = max(h, grid[ni][nj]);
+
+                if (newHeight < height[ni][nj]) {
+                    height[ni][nj] = newHeight;
+
+                    pq.push({newHeight, {ni, nj}});
+                }
             }
         }
-        return ans;
+
+        return height[n-1][n-1];
     }
 };
