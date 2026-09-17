@@ -1,27 +1,28 @@
 class Solution {
 public:
     int numDistinct(string s, string t) {
-        int m = s.size();
-        int n = t.size();
+        int n = s.size();
+        int m = t.size();
 
-        vector<int> dp (n+1, 0);
-        // Tabulation → computes all states → may hit overflow.
-        // Memo → computes only required states → may avoid overflow.
-        int MOD = (int) 1e9 + 7; 
+        int MOD = 1e9 + 7;
 
-        for(int i=1; i<=m; i++){
-            int last = 1;
-            for(int j=1; j<=n; j++){
-                int cur = dp[j];
-                int take = 0, notTake = 0;
-                if(s[i-1]==t[j-1]){
-                    take = last;
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+
+        // t = "" → exactly 1 way
+        for(int i = 0; i <= n; i++)
+            dp[i][0] = 1;
+
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+
+                dp[i][j] = dp[i-1][j];
+
+                if(s[i-1] == t[j-1]) {
+                    dp[i][j] = (dp[i][j] + dp[i-1][j-1]) % MOD;
                 }
-                notTake = cur;
-                dp[j] = (take + notTake) % MOD;
-                last = cur;
             }
         }
-        return dp[n];
+
+        return dp[n][m];
     }
 };
