@@ -30,6 +30,9 @@ public:
             if (vis[i][j])
                 continue;
 
+            if (h > height[i][j]) {
+                continue;
+            }
             vis[i][j] = 1;
 
             for (int d = 0; d < 4; d++) {
