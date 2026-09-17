@@ -13,7 +13,6 @@ public:
         int dx[] = {-1, 1, 0, 0};
         int dy[] = {0, 0, -1, 1};
 
-        vector<vector<int>> vis(n, vector<int>(n, 0));
         vector<vector<int>> height(n, vector<int>(n, INT_MAX));
 
         pq.push({grid[0][0], {0, 0}});
@@ -27,13 +26,9 @@ public:
             int i = pos.first;
             int j = pos.second;
 
-            if (vis[i][j])
+            // Outdated entry
+            if (h > height[i][j])
                 continue;
-
-            if (h > height[i][j]) {
-                continue;
-            }
-            vis[i][j] = 1;
 
             for (int d = 0; d < 4; d++) {
 
@@ -43,10 +38,10 @@ public:
                 if (ni < 0 || nj < 0 || ni >= n || nj >= n)
                     continue;
 
-                // Time required to reach neighbour
                 int newHeight = max(h, grid[ni][nj]);
 
                 if (newHeight < height[ni][nj]) {
+
                     height[ni][nj] = newHeight;
 
                     pq.push({newHeight, {ni, nj}});
