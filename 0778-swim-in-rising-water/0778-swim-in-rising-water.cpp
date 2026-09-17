@@ -27,8 +27,9 @@ public:
             int j = pos.second;
 
             // Outdated entry
-            // if (h > height[i][j])
-            //     continue;
+            if(i==n-1&&j==n-1)
+            return height[i][j];
+               
 
             for (int d = 0; d < 4; d++) {
 
