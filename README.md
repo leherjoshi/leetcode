@@ -636,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/leherjoshi/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/leherjoshi/leetcode/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/leherjoshi/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0227-basic-calculator-ii](https://github.com/leherjoshi/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0316-remove-duplicate-letters](https://github.com/leherjoshi/leetcode/tree/master/0316-remove-duplicate-letters) |
@@ -888,6 +889,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/leherjoshi/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0226-invert-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
@@ -950,6 +952,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/leherjoshi/leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0226-invert-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
@@ -992,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0095-unique-binary-search-trees-ii](https://github.com/leherjoshi/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/leherjoshi/leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
@@ -1196,6 +1200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/leherjoshi/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/leherjoshi/leetcode/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/leherjoshi/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0295-find-median-from-data-stream](https://github.com/leherjoshi/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1450,4 +1455,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/leherjoshi/leetcode/tree/master/0075-sort-colors) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
