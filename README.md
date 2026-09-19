@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/leherjoshi/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3110-score-of-a-string](https://github.com/leherjoshi/leetcode/tree/master/3110-score-of-a-string) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/leherjoshi/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
+| [3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/leherjoshi/leetcode/tree/master/3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/leherjoshi/leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/leherjoshi/leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/leherjoshi/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/leherjoshi/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
+| [3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/leherjoshi/leetcode/tree/master/3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 | [3312-sorted-gcd-pair-queries](https://github.com/leherjoshi/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/leherjoshi/leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/leherjoshi/leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/leherjoshi/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/leherjoshi/leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/leherjoshi/leetcode/tree/master/3297-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 | [3589-count-prime-gap-balanced-subarrays](https://github.com/leherjoshi/leetcode/tree/master/3589-count-prime-gap-balanced-subarrays) |
 | [3694-distinct-points-reachable-after-substring-removal](https://github.com/leherjoshi/leetcode/tree/master/3694-distinct-points-reachable-after-substring-removal) |
 ## Array
