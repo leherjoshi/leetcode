@@ -894,6 +894,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
@@ -955,6 +956,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
@@ -992,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0701-insert-into-a-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
