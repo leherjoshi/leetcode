@@ -11,30 +11,23 @@
  */
 class Solution {
 public:
-       vector<int> ans;
+    bool helper(TreeNode* root, TreeNode* left, TreeNode* right) {
+        if (root == nullptr)
+            return true;
 
-    void inorder(TreeNode* root) {
-        if (root == nullptr) return;
+        // check BST property using boundary nodes
+        if (left != nullptr && root->val <= left->val)
+            return false;
+        if (right != nullptr && root->val >= right->val)
+            return false;
 
-        inorder(root->left);
-        ans.push_back(root->val);
-        inorder(root->right);
+        // recursively check left and right subtrees
+        return helper(root->left, left, root) && 
+               helper(root->right, root, right);
     }
 
     bool isValidBST(TreeNode* root) {
-    //     if(!root)return true;
-    //         isValidBST(root->left);
-    //         isValidBST(root->right);
-    //         if(root->right){
-    //             if(root->val>=root->right->val)return false;
-    //         }
-    //         if(root->left)
-    //     if(root->val<=root->left->val)return false;
-    //  return true;   
-    inorder(root);
-    for(int i=1;i<ans.size();i++){
-       if(ans[i] <= ans[i-1]) return false;
-    }
-    return true;
+        // initially, no boundaries exist → pass nullptr
+        return helper(root, NULL, NULL);
     }
 };
