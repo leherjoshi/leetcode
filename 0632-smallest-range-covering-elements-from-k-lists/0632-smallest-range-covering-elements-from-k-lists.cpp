@@ -1,48 +1,60 @@
 class Solution {
 public:
     vector<int> smallestRange(vector<vector<int>>& nums) {
-        // {value, list index, element index}
-        priority_queue<
-            tuple<int, int, int>,
-            vector<tuple<int, int, int>>,
-            greater<tuple<int, int, int>>
-        > pq;
 
-        int maxVal = INT_MIN;
+        vector<pair<int,int>> arr;
 
-        // Put first element of every list into heap
-        for (int i = 0; i < nums.size(); i++) {
-            pq.push({nums[i][0], i, 0});
-            maxVal = max(maxVal, nums[i][0]);
+        // value, list number
+        for(int i = 0; i < nums.size(); i++) {
+            for(int x : nums[i]) {
+                arr.push_back({x, i});
+            }
         }
 
-        int bestL = 0;
-        int bestR = INT_MAX;
+        sort(arr.begin(), arr.end());
 
-        while (true) {
-            auto [minVal, listIdx, elementIdx] = pq.top();
-            pq.pop();
+        int k = nums.size();
 
-            // Current range = [minVal, maxVal]
-            if (maxVal - minVal < bestR - bestL ||
-                (maxVal - minVal == bestR - bestL && minVal < bestL)) {
-                bestL = minVal;
-                bestR = maxVal;
+        vector<int> freq(k, 0);
+
+        int count = 0;
+        int left = 0;
+
+        int ansL = 0;
+        int ansR = INT_MAX;
+
+        for(int right = 0; right < arr.size(); right++) {
+
+            int list = arr[right].second;
+
+            if(freq[list] == 0)
+                count++;
+
+            freq[list]++;
+
+            // We have all k lists
+            while(count == k) {
+
+                int l = arr[left].first;
+                int r = arr[right].first;
+
+                if(r - l < ansR - ansL) {
+                    ansL = l;
+                    ansR = r;
+                }
+
+                // Remove left
+                int leftList = arr[left].second;
+
+                freq[leftList]--;
+
+                if(freq[leftList] == 0)
+                    count--;
+
+                left++;
             }
-
-            // If this list has no more elements, we cannot continue
-            if (elementIdx + 1 == nums[listIdx].size()) {
-                break;
-            }
-
-            // Move to next element in the same list
-            int nextVal = nums[listIdx][elementIdx + 1];
-
-            pq.push({nextVal, listIdx, elementIdx + 1});
-
-            maxVal = max(maxVal, nextVal);
         }
 
-        return {bestL, bestR};
+        return {ansL, ansR};
     }
 };
