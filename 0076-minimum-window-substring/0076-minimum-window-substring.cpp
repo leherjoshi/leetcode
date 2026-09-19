@@ -1,51 +1,49 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        if(t.empty()||s.empty()||t.size()>s.size()){
-            return "";
-        }
+        int n = s.size();
+        int left = 0;
+        
+        int ansleft = 0;
+        int ansright = 0;
+        int ans = INT_MAX;
 
-        unordered_map<char,int>dict;
-        for(char c:t)dict[c]++;
+        unordered_map<char, int> dict;
+        
+        for (char c : t)
+            dict[c]++;
 
-        int required=dict.size();
-        int formed=0;
+        int required = dict.size();
 
-        int left=0;
-        int right=0;
+        unordered_map<int, int> windowcount;
 
-        unordered_map<char,int>windowcounts;
-        int ans=INT_MAX;
-        int ansleft=0;
-        // int ansright=0;
+        int formed = 0;
 
-    while(right<s.size()){
-        char c=s[right];
-        windowcounts[c]++;
+        for(int right=0;right<n;right++){
 
-        if(dict.find(c)!=dict.end()&&windowcounts[c]==dict[c]){
-            formed++;
-        }
+            char c = s[right];
 
-        while(left<=right&&formed==required){
-            c=s[left];
+            windowcount[c]++;
 
-            if(right-left+1<ans){
-                ans=right-left+1;
-                ansleft=left;
-                // ansright=right;
+            if (dict.find(c) != dict.end() && windowcount[c] == dict[c]) {
+                formed++;
             }
 
-            windowcounts[c]--;
-            if(dict.find(c)!=dict.end()&&windowcounts[c]<dict[c]){
-                formed--;
+            while (left <= right && formed == required) {
+                c = s[left];
+
+                if (right - left + 1 < ans) {
+                    ans = right - left + 1;
+                    ansleft = left;
+                }
+                windowcount[c]--;
+                left++;
+                if (dict.find(c) != dict.end() && windowcount[c] < dict[c]) {
+                    formed--;
+                }
             }
-
-            left++;
-
+            
         }
-        right++;
-    }
-    return (ans==INT_MAX)?"":s.substr(ansleft,ans);
+        return (ans == INT_MAX) ? "" : s.substr(ansleft, ans);
     }
 };
