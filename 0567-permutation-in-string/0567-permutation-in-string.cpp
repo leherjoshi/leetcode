@@ -1,49 +1,45 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        unordered_map<char,int> target;
+        unordered_map<char,int>target;
 
-        for(char c : s1)
-            target[c]++;
+        for(char c:s1)target[c]++;
 
-        int req = target.size();
-        int formed = 0;
+        int req=target.size();
 
-        unordered_map<char,int> window;
+        int formed=0;
+        
 
-        int left = 0;
+        unordered_map<char,int>window;
 
-        for(int right = 0; right < s2.size(); right++) {
+        int left=0;
 
-            char c = s2[right];
-            window[c]++;
+        for(int i=0;i<s2.size();i++){
+            char c=s2[i];
+            window[s2[i]]++;
 
-            // A character has reached exactly its required frequency
-            if(target.find(c) != target.end() &&
-               window[c] == target[c]) {
+            if(target.find(c)!=target.end() &&window[c]==target[c] ){
                 formed++;
             }
 
-            // Keep window size equal to s1.size()
-            if(right - left + 1 > s1.size()) {
-
-                char remove = s2[left];
-
-                // Before removing, this character was satisfying
-                // its required frequency
-                if(target.find(remove) != target.end() &&
-                   window[remove] == target[remove]) {
-                    formed--;
+            if(i-left+1>s1.size()){
+                char c=s2[left];
+                if(target.find(c)!=target.end() &&window[c]==target[c]){
+                   formed--;
                 }
+                 window[c]--;
+                 left++;
 
-                window[remove]--;
-                left++;
             }
 
-            if(formed == req)
-                return true;
+            if(formed==req)return true;
+
+
+            
+
         }
 
+        if(formed==req)return true;
         return false;
     }
 };
