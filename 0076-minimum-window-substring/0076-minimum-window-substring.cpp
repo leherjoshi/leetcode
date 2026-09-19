@@ -29,7 +29,7 @@ public:
                 formed++;
             }
 
-            while (left <= right && formed == required) {
+            while ( formed == required) {
                 c = s[left];
 
                 if (right - left + 1 < ans) {
