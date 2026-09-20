@@ -815,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/leherjoshi/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/leherjoshi/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0778-swim-in-rising-water](https://github.com/leherjoshi/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -902,6 +903,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
@@ -930,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0547-number-of-provinces](https://github.com/leherjoshi/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0778-swim-in-rising-water](https://github.com/leherjoshi/leetcode/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -971,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/leherjoshi/leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/leherjoshi/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/leherjoshi/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/leherjoshi/leetcode/tree/master/0938-range-sum-of-bst) |
