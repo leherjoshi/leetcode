@@ -21,6 +21,6 @@ public:
     }
     int maxAncestorDiff(TreeNode* root) {
         
-        return mxdiff(root,root->val,root->val);
+        return mxdiff(root,INT_MAX,INT_MIN);
     }
 };
