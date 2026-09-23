@@ -957,6 +957,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/leherjoshi/leetcode/tree/master/1020-number-of-enclaves) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/leherjoshi/leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1028-recover-a-tree-from-preorder-traversal](https://github.com/leherjoshi/leetcode/tree/master/1028-recover-a-tree-from-preorder-traversal) |
+| [1192-critical-connections-in-a-network](https://github.com/leherjoshi/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1306-jump-game-iii](https://github.com/leherjoshi/leetcode/tree/master/1306-jump-game-iii) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/leherjoshi/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/leherjoshi/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -1047,6 +1048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/leherjoshi/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/leherjoshi/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0924-minimize-malware-spread](https://github.com/leherjoshi/leetcode/tree/master/0924-minimize-malware-spread) |
+| [1192-critical-connections-in-a-network](https://github.com/leherjoshi/leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/leherjoshi/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/leherjoshi/leetcode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/leherjoshi/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -1496,4 +1498,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/leherjoshi/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/leherjoshi/leetcode/tree/master/1192-critical-connections-in-a-network) |
+## Bridge (Graph)
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/leherjoshi/leetcode/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
