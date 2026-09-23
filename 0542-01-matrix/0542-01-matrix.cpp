@@ -1,38 +1,44 @@
 class Solution {
 public:
+
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        int n = mat.size();
-        int m = mat[0].size();
+        queue<pair<int,int>> q;
 
-        vector<vector<int>>ans(n,vector<int>(m,INT_MAX));
-        queue<pair<int,int>>q;
+        vector<vector<int>> ans(
+            mat.size(),
+            vector<int>(mat[0].size(), -1)
+        );
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(mat[i][j]==0){
-                    ans[i][j]=0;
+        for(int i = 0; i < mat.size(); i++){
+            for(int j = 0; j < mat[0].size(); j++){
+                if(mat[i][j] == 0){
                     q.push({i,j});
+                    ans[i][j] = 0;
                 }
             }
         }
-        int dx[]={0,0,1,-1};
-        int dy[]={-1,1,0,0};
 
         while(!q.empty()){
-            auto [i,j]=q.front();
+            auto [i,j] = q.front();
             q.pop();
-            
 
-                for(int d=0;d<4;d++){
-                    int ni=dx[d]+i;
-                    int nj=dy[d]+j;
-                    
-                    if(ni>=0 && nj>=0 &&ni<n && nj<m && ans[ni][nj]==INT_MAX){
-                        ans[ni][nj]=min(ans[ni][nj],1+ans[i][j]);
-                        q.push({ni,nj});
-                    }
+            int dx[] = {-1, 1, 0, 0};
+            int dy[] = {0, 0, -1, 1};
+
+            for(int d = 0; d < 4; d++){
+                int nx = i + dx[d];
+                int ny = j + dy[d];
+
+                if(nx >= 0 && nx < mat.size() &&
+                   ny >= 0 && ny < mat[0].size() &&
+                   ans[nx][ny] == -1){
+
+                    ans[nx][ny] = 1 + ans[i][j];
+                    q.push({nx,ny});
                 }
+            }
         }
+
         return ans;
     }
 };
