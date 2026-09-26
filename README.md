@@ -468,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2149-rearrange-array-elements-by-sign](https://github.com/leherjoshi/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/leherjoshi/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
+| [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2401-longest-nice-subarray](https://github.com/leherjoshi/leetcode/tree/master/2401-longest-nice-subarray) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/leherjoshi/leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
@@ -524,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/leherjoshi/leetcode/tree/master/0645-set-mismatch) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
 | [1386-cinema-seat-allocation](https://github.com/leherjoshi/leetcode/tree/master/1386-cinema-seat-allocation) |
+| [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2401-longest-nice-subarray](https://github.com/leherjoshi/leetcode/tree/master/2401-longest-nice-subarray) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/leherjoshi/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/leherjoshi/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -637,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1824-minimum-sideway-jumps](https://github.com/leherjoshi/leetcode/tree/master/1824-minimum-sideway-jumps) |
 | [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2054-two-best-non-overlapping-events](https://github.com/leherjoshi/leetcode/tree/master/2054-two-best-non-overlapping-events) |
+| [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/leherjoshi/leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/leherjoshi/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/leherjoshi/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -1047,6 +1050,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/leherjoshi/leetcode/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/leherjoshi/leetcode/tree/master/0282-expression-add-operators) |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
+| [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/leherjoshi/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Binary Search Tree
 |  |
@@ -1346,6 +1350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1255-maximum-score-words-formed-by-letters](https://github.com/leherjoshi/leetcode/tree/master/1255-maximum-score-words-formed-by-letters) |
+| [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 ## Queue
 |  |
 | ------- |
