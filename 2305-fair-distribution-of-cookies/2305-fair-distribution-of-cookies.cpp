@@ -1,32 +1,43 @@
 class Solution {
 public:
-    int ans=INT_MAX;
+    bool check(vector<int>& cookies, int k, int mid, int idx, vector<int>& child) {
+        if (idx == cookies.size())
+            return true;
 
-    void can(int ind,vector<int>&cookies,vector<int>&v,int k){
-        if(ind==cookies.size()){
-            int maxi=INT_MIN;
+        for (int i = 0; i < k; i++) {
+            if (child[i] + cookies[idx] <= mid) {
+                child[i] += cookies[idx];
 
-            for(int i=0;i<k;i++){
-                maxi=max(maxi,v[i]);
+                if (check(cookies, k, mid, idx + 1, child))
+                    return true;
+
+                child[i] -= cookies[idx];
             }
-            ans=min(ans,maxi);
-            return ;
+
+            // If this child is empty, trying other empty children
+            // gives the same state.
+            if (child[i] == 0)
+                break;
         }
 
-        for(int i=0;i<k;i++){
-            v[i]+=cookies[ind];
-            can(ind+1,cookies,v,k);
-            v[i]-=cookies[ind];
-        }
-
+        return false;
     }
-    int distributeCookies(vector<int>& cookies, int k) {
-        
-        int n=cookies.size();
-        vector<int>v(k,0);
-        can(0,cookies,v,k);
-        return ans;
 
-        
+    int distributeCookies(vector<int>& cookies, int k) {
+        int low = *max_element(cookies.begin(), cookies.end());
+        int high = accumulate(cookies.begin(), cookies.end(), 0);
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            vector<int> child(k, 0);
+
+            if (check(cookies, k, mid, 0, child))
+                high = mid;
+            else
+                low = mid + 1;
+        }
+
+        return low;
     }
 };
