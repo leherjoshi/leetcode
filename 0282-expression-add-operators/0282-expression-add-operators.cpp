@@ -1,52 +1,31 @@
 class Solution {
 public:
-    vector<string> ans;
-
-    void solve(int idx, string expr, long long value,
-               long long prev, string &num, int target) {
-
-        if (idx == num.size()) {
-            if (value == target)
-                ans.push_back(expr);
+    void solve(string& num, int idx, long long value, long long prev,
+               string expr, int target, vector<string>& ans) {
+        int n = num.size();
+        if (idx == n) {
+            if (value == target) ans.push_back(expr);
             return;
         }
-
-        for (int j = idx; j < num.size(); j++) {
-
-            // Skip numbers with leading zeros
-            if (j > idx && num[idx] == '0')
-                break;
-
-            string part = num.substr(idx, j - idx + 1);
+        for (int len = 1; idx + len <= n; len++) {
+            string part = num.substr(idx, len);
+            if (part.size() > 1 && part[0] == '0') break; // no leading zeros
             long long cur = stoll(part);
 
             if (idx == 0) {
-                solve(j + 1, part, cur, cur, num, target);
+                solve(num, len, cur, cur, part, target, ans);
             } else {
-                // +
-                solve(j + 1, expr + "+" + part,
-                      value + cur,
-                      cur,
-                      num, target);
-
-                // -
-                solve(j + 1, expr + "-" + part,
-                      value - cur,
-                      -cur,
-                      num, target);
-
-                // *
-                solve(j + 1, expr + "*" + part,
-                      value - prev + prev * cur,
-                      prev * cur,
-                      num, target);
+                solve(num, idx+len, value + cur, cur, expr + "+" + part, target, ans);
+                solve(num, idx+len, value - cur, -cur, expr + "-" + part, target, ans);
+                solve(num, idx+len, value - prev + prev*cur, prev*cur, expr + "*" + part, target, ans);
             }
         }
     }
 
     vector<string> addOperators(string num, int target) {
-        ans.clear();
-        solve(0, "", 0, 0, num, target);
+        vector<string> ans;
+        if (num.empty()) return ans;
+        solve(num, 0, 0, 0, "", target, ans);
         return ans;
     }
 };
