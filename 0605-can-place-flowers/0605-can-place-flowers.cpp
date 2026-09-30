@@ -30,7 +30,7 @@ public:
         // Last position
         if (flowerbed[size - 1] == 0 &&
             flowerbed[size - 2] == 0) {
-            flowerbed[size - 1] = 1;
+            
             cnt++;
         }
 
