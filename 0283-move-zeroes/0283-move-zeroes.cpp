@@ -5,7 +5,7 @@ public:
         int i=0;
         int j=0;
         while(i<n){
-            while(j<n&&nums[j]==0){
+            while(j+1<n&&nums[j]==0){
                 j++;
             }
             if(j==n)break;
