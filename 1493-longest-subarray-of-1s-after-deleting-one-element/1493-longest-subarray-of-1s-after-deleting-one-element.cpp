@@ -1,22 +1,28 @@
 class Solution {
 public:
     int longestSubarray(vector<int>& s) {
-        int left = 0;
-        int zero = 0;
+        int cnt = 0;
+        int prev = 0;
         int maxi = 0;
 
-        for (int right = 0; right < s.size(); right++) {
-            if (s[right] == 0)
-                zero++;
+        for (int i = 0; i < s.size(); i++) {
 
-            while (zero > 1) {
-                if (s[left] == 0)
-                    zero--;
-                left++;
+            if (s[i] == 1) {
+                cnt++;
             }
+            else {
+                maxi = max(maxi, prev + cnt);
 
-            maxi = max(maxi, right - left);
+                prev = cnt;
+                cnt = 0;
+            }
         }
+
+        maxi = max(maxi, prev + cnt);
+
+        // If there was no zero, we must delete one 1
+        if (maxi == s.size())
+            return maxi - 1;
 
         return maxi;
     }
