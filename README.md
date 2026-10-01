@@ -255,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/leherjoshi/leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/leherjoshi/leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/leherjoshi/leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/leherjoshi/leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1993-operations-on-tree](https://github.com/leherjoshi/leetcode/tree/master/1993-operations-on-tree) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/leherjoshi/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
@@ -465,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1563-stone-game-v](https://github.com/leherjoshi/leetcode/tree/master/1563-stone-game-v) |
 | [1631-path-with-minimum-effort](https://github.com/leherjoshi/leetcode/tree/master/1631-path-with-minimum-effort) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/leherjoshi/leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1735-count-ways-to-make-array-with-product](https://github.com/leherjoshi/leetcode/tree/master/1735-count-ways-to-make-array-with-product) |
 | [1765-map-of-highest-peak](https://github.com/leherjoshi/leetcode/tree/master/1765-map-of-highest-peak) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -582,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/leherjoshi/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/leherjoshi/leetcode/tree/master/0881-boats-to-save-people) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/leherjoshi/leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/leherjoshi/leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [1768-merge-strings-alternately](https://github.com/leherjoshi/leetcode/tree/master/1768-merge-strings-alternately) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/leherjoshi/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -799,6 +802,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/leherjoshi/leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1552-magnetic-force-between-two-balls](https://github.com/leherjoshi/leetcode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/leherjoshi/leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/leherjoshi/leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2054-two-best-non-overlapping-events](https://github.com/leherjoshi/leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/leherjoshi/leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/leherjoshi/leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
