@@ -258,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/leherjoshi/leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/leherjoshi/leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1993-operations-on-tree](https://github.com/leherjoshi/leetcode/tree/master/1993-operations-on-tree) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/leherjoshi/leetcode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/leherjoshi/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/leherjoshi/leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
@@ -487,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/leherjoshi/leetcode/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/leherjoshi/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/leherjoshi/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
+| [2215-find-the-difference-of-two-arrays](https://github.com/leherjoshi/leetcode/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/leherjoshi/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2401-longest-nice-subarray](https://github.com/leherjoshi/leetcode/tree/master/2401-longest-nice-subarray) |
