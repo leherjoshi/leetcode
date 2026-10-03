@@ -1155,6 +1155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/leherjoshi/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/leherjoshi/leetcode/tree/master/0146-lru-cache) |
 | [0237-delete-node-in-a-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
+| [0328-odd-even-linked-list](https://github.com/leherjoshi/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/leherjoshi/leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/leherjoshi/leetcode/tree/master/0460-lfu-cache) |
 | [0705-design-hashset](https://github.com/leherjoshi/leetcode/tree/master/0705-design-hashset) |
