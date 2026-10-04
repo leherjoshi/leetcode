@@ -290,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-find-missing-elements](https://github.com/leherjoshi/leetcode/tree/master/3731-find-missing-elements) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/leherjoshi/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3945-digit-frequency-score](https://github.com/leherjoshi/leetcode/tree/master/3945-digit-frequency-score) |
+| [4067-longest-subarray-with-restricted-pair-sums](https://github.com/leherjoshi/leetcode/tree/master/4067-longest-subarray-with-restricted-pair-sums) |
 ## Sliding Window
 |  |
 | ------- |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3298-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/leherjoshi/leetcode/tree/master/3298-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3589-count-prime-gap-balanced-subarrays](https://github.com/leherjoshi/leetcode/tree/master/3589-count-prime-gap-balanced-subarrays) |
 | [3694-distinct-points-reachable-after-substring-removal](https://github.com/leherjoshi/leetcode/tree/master/3694-distinct-points-reachable-after-substring-removal) |
+| [4067-longest-subarray-with-restricted-pair-sums](https://github.com/leherjoshi/leetcode/tree/master/4067-longest-subarray-with-restricted-pair-sums) |
 ## Array
 |  |
 | ------- |
@@ -540,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/leherjoshi/leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3975-filter-occupied-intervals](https://github.com/leherjoshi/leetcode/tree/master/3975-filter-occupied-intervals) |
 | [3976-maximum-subarray-sum-after-multiplier](https://github.com/leherjoshi/leetcode/tree/master/3976-maximum-subarray-sum-after-multiplier) |
+| [4067-longest-subarray-with-restricted-pair-sums](https://github.com/leherjoshi/leetcode/tree/master/4067-longest-subarray-with-restricted-pair-sums) |
 ## Bit Manipulation
 |  |
 | ------- |
