@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/leherjoshi/leetcode/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2352-equal-row-and-column-pairs](https://github.com/leherjoshi/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/leherjoshi/leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/leherjoshi/leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/leherjoshi/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/leherjoshi/leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -505,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2352-equal-row-and-column-pairs](https://github.com/leherjoshi/leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2401-longest-nice-subarray](https://github.com/leherjoshi/leetcode/tree/master/2401-longest-nice-subarray) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/leherjoshi/leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/leherjoshi/leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/leherjoshi/leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/leherjoshi/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2942-find-words-containing-character](https://github.com/leherjoshi/leetcode/tree/master/2942-find-words-containing-character) |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/leherjoshi/leetcode/tree/master/1386-cinema-seat-allocation) |
 | [2305-fair-distribution-of-cookies](https://github.com/leherjoshi/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2401-longest-nice-subarray](https://github.com/leherjoshi/leetcode/tree/master/2401-longest-nice-subarray) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/leherjoshi/leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/leherjoshi/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/leherjoshi/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/leherjoshi/leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -1250,6 +1253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/leherjoshi/leetcode/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1872-stone-game-viii](https://github.com/leherjoshi/leetcode/tree/master/1872-stone-game-viii) |
 | [2207-maximize-number-of-subsequences-in-a-string](https://github.com/leherjoshi/leetcode/tree/master/2207-maximize-number-of-subsequences-in-a-string) |
+| [2588-count-the-number-of-beautiful-subarrays](https://github.com/leherjoshi/leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 | [3312-sorted-gcd-pair-queries](https://github.com/leherjoshi/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element](https://github.com/leherjoshi/leetcode/tree/master/3410-maximize-subarray-sum-after-removing-all-occurrences-of-one-element) |
 | [3599-partition-array-to-minimize-xor](https://github.com/leherjoshi/leetcode/tree/master/3599-partition-array-to-minimize-xor) |
